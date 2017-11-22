@@ -1,3 +1,22 @@
-PODFILE CHECKSUM: bd6c1d308ca08378026935062cfc43220dc61283
+PODS:
+  - HPWVistor (2.6.10):
+    - LYMqttSDK (~> 0.0.12)
+  - LYMqttSDK (0.0.12):
+    - LYMqttSDK/LYTSDK (= 0.0.12)
+  - LYMqttSDK/LYTCommonLib (0.0.12)
+  - LYMqttSDK/LYTFoundation (0.0.12)
+  - LYMqttSDK/LYTSDK (0.0.12):
+    - LYMqttSDK/LYTCommonLib
+    - LYMqttSDK/LYTFoundation
+
+DEPENDENCIES:
+  - HPWVistor (~> 2.6.10)
+  - LYMqttSDK (~> 0.0.12)
+
+SPEC CHECKSUMS:
+  HPWVistor: e19713462d3a946bb2ba3486a8d21b0c47dfe033
+  LYMqttSDK: fa90e8acf7d4b3783ef1ab9f931dc27823d9586d
+
+PODFILE CHECKSUM: 8a4865d3390100f7ddbc7d60cfc6f8348043b03a
 
 COCOAPODS: 1.4.0.beta.2
