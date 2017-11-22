@@ -1,0 +1,1 @@
+../../../LYMqttSDK/FrameworkTest/LYTSDK/LYTBaseManagerProtocol.h
