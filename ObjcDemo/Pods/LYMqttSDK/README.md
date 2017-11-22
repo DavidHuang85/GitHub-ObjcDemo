@@ -1,2 +1,0 @@
-# FrameworkTest
-pod static respository

@@ -1,1 +1,0 @@
-../../../LYMqttSDK/FrameworkTest/LYTCommonLib/LYTNetWorking/SDKSecurityPolicy.h
