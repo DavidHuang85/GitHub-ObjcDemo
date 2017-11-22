@@ -18,9 +18,7 @@ DerivedData/
 .Trashes
 Icon?
 ehthumbs.db
-LYTZSDK_Output/
 Thumbs.db
-OUTPORT/
 
 ####################################
 ############# packages #############
@@ -49,6 +47,7 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+*.xcworkspace
 
 ## Obj-C/Swift specific
 *.hmap
@@ -62,7 +61,8 @@ xcuserdata/
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
+Pods/
+*.lock
 
 # Carthage
 #
