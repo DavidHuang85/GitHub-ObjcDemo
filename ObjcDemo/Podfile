@@ -4,6 +4,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 
 target 'ObjcDemo' do
-pod 'LYMqttSDK', '~> 0.0.12'
-pod 'HPWVistor', '~> 2.6.10'
+pod 'LYTSDK'
+# pod 'HPWVistor', '~> 2.6.10'
 end
