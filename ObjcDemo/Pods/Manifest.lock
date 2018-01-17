@@ -1,18 +1,18 @@
 PODS:
-  - LYTSDK (2.0.04):
-    - LYTSDK/Core (= 2.0.04)
-  - LYTSDK/Core (2.0.04):
+  - LYTSDK (2.0.05):
+    - LYTSDK/Core (= 2.0.05)
+  - LYTSDK/Core (2.0.05):
     - LYTSDK/LYTCommonLib
     - LYTSDK/LYTFoundation
-  - LYTSDK/LYTCommonLib (2.0.04)
-  - LYTSDK/LYTFoundation (2.0.04)
+  - LYTSDK/LYTCommonLib (2.0.05)
+  - LYTSDK/LYTFoundation (2.0.05)
 
 DEPENDENCIES:
-  - LYTSDK
+  - LYTSDK (~> 2.0.05)
 
 SPEC CHECKSUMS:
-  LYTSDK: 9bfc93e4cffa0d532b0230ce9226a5decbfb950d
+  LYTSDK: 85cdbf40de76ce46986818d0759c98ebbfd490b1
 
-PODFILE CHECKSUM: 14becf5625f7abd3c922f645c2cfbbade95f5aca
+PODFILE CHECKSUM: e01bc3efed471f0e7c2b966e2c6765ae0911be98
 
 COCOAPODS: 1.3.1
