@@ -1,8 +1,8 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/LYTSDK"
-LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/LYTSDK" "${PODS_ROOT}/LYTSDK/Classes/LYTCore" "${PODS_ROOT}/LYTSDK/Classes/LYTCommonLib" "${PODS_ROOT}/LYTSDK/Classes/LYTFoundation"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/LYTSDK"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Core" -l"LYTCommonLib" -l"LYTFoundation" -l"LYTSDK" -l"sqlite3.0" -l"xml2" -l"z" -framework "CoreTelephony" -framework "Foundation" -framework "UIKit" -framework "UserNotifications"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/HPWVisitorSDK" "${PODS_ROOT}/Headers/Public/LYTSDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/HPWVisitorSDK" "$PODS_CONFIGURATION_BUILD_DIR/LYTSDK" "${PODS_ROOT}/HPWVisitorSDK/Classes" "${PODS_ROOT}/LYTSDK/Classes/LYTCore" "${PODS_ROOT}/LYTSDK/Classes/LYTCommonLib" "${PODS_ROOT}/LYTSDK/Classes/LYTFoundation"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/HPWVisitorSDK" -isystem "${PODS_ROOT}/Headers/Public/LYTSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Core" -l"HPWVisitorSDK" -l"HPWVistor" -l"LYTCommonLib" -l"LYTFoundation" -l"LYTSDK" -l"sqlite3.0" -l"xml2" -l"xml2.2" -l"z" -framework "CoreTelephony" -framework "Foundation" -framework "UIKit" -framework "UserNotifications"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

@@ -7,184 +7,227 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02BE26646D01FC82535C2DEB183F15BE /* ReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = E54F0641A6FF1DF552C5AF14AF42FED4 /* ReadMe.md */; };
-		05792BDE1ADDC07FE87E72AE61F9F2FD /* SGCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D90FD1477BE84BA0124C7502BC2A303F /* SGCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05ABBF339D73E8A772EBECB28B13C2CA /* SDKURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B8A0E30840B1F7F8BE830A5123F78DDC /* SDKURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		083FA65C771A349F0BA8513969D9ECD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABB6CDB27329629A0DB1323EF887A91 /* Foundation.framework */; };
-		0F17B4842FCEE79FFFA66C319FF13501 /* NSData+AES128.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D75F145EADE24D3C416104DA710CBB /* NSData+AES128.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12CD0AA3B62141762E3DA2EFE2234FA7 /* LYTChatRoomInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 742400CDA6C8EC7E25356D346CC3645D /* LYTChatRoomInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14D616D15C93BC07DA5E9C267DE20F96 /* NSArray+InvertedOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 90610A0F4CF4265DBE1FC79EFEDFA4E5 /* NSArray+InvertedOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A757FC9995649CA3AE77EC13680D05E /* NSArray+ArrayFormSet.h in Headers */ = {isa = PBXBuildFile; fileRef = D239BFE64410E5E43590D8316D98B143 /* NSArray+ArrayFormSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AB2DA325AD5FCAB58D9D4216740BD21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B6FBD327471A18F394923859505197 /* UIKit.framework */; };
-		1CAF3E2A21F1573673143DFCF1EC7DC0 /* libLYTCommonLib.a in Sources */ = {isa = PBXBuildFile; fileRef = 5F898AE392B4BF90A39B64A74D868402 /* libLYTCommonLib.a */; };
-		1F4E92CA0C6A0E78ABC0C8D316F15A06 /* NSString+UDID.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA7B8FEDC4581D1FF3B716A27CAFF74 /* NSString+UDID.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F7FAA85DC00E1FA4BAA07577D96F742 /* SDKHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E146AD291F98B7C2102888A57D9EBC2A /* SDKHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31F0B4C1527CDC806B9C90F704253595 /* LYTChatNoti.h in Headers */ = {isa = PBXBuildFile; fileRef = C97176D572AD9D4E5F4DF22472D3D85E /* LYTChatNoti.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3401BDE87D838E59A4AC17BFAD7F12FE /* NSObject+SGExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = DE757DCCE4ADF1D4ECF047EA2953696B /* NSObject+SGExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		371E054E4FF4596EEC795619B3ADFD59 /* SDKURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 798862C9B1FF713DD92D21D9077EF466 /* SDKURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AB141A3E0DA8AB1EE7DD6E18DFB3B85 /* LYTSDKChatRoomProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 999CAA7B6ED826FDEDDB463F65B75270 /* LYTSDKChatRoomProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D7077C2F528D53F70C16F1646CA216C /* NSObject+LYTSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 47671C3F18A85B325BC0CC4CEFDFEC71 /* NSObject+LYTSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		404057852F6D79EF573972FBA603EFF4 /* NSString+LYTRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D2816863B89D30327FEFE1D4A4CB14 /* NSString+LYTRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40EDFF046854DABC525D9C00C5C2D8A5 /* SDKNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FA52D80D851851C44A04EF6F7EDD6129 /* SDKNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4117F1C8FFA86EA97A660B63C18464DB /* NSMutableArray+LYTAddObject.h in Headers */ = {isa = PBXBuildFile; fileRef = CAEF6A9DDB1AC9241182356ECDF01845 /* NSMutableArray+LYTAddObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41F2D595A917AF8257D9258CCD26901D /* LYTRSAUtillTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7731EE88DDC7E1CA59BE3AB5696406CD /* LYTRSAUtillTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		457DCEE381354D05B26252F03DCEF539 /* LYTGlobalEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DBEB95D6D66CD0A5E10B927D09960C0 /* LYTGlobalEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4622196ADA81638C61AC9A99F73C2996 /* LYTUploadManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD1E79198B5A5B993416343BE588252 /* LYTUploadManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		471C4352A2AE197733737534FC54FD47 /* LYTSDKConversationManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3400FB50D0B924C69C63B5079C4104F5 /* LYTSDKConversationManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47EC89FB2961F3C1300735537321853B /* SDKSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 287AE303E6D74571877A9C2D007AF992 /* SDKSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		484CF659BCDD9DCD2F6318F730D097A3 /* NSObject+SGProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 6044FE18054AFE049149361534057264 /* NSObject+SGProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B1314918D83518BCB07B7F26C19ECA4 /* LYTSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9032CE2E959D7B2851FC2B91A92152 /* LYTSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		558E5FE99861890733ADE89E286D9710 /* LYTSafetyDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = DB62787BBDBC0B53C3A4C111A4BD9728 /* LYTSafetyDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59AE1A8F314C40993D3351207A636E75 /* LYTResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F99F2FFE370D5CE7EF0C27672D10E5 /* LYTResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D33756ECB2D0735F9C9622F95A98283 /* LYTDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = E5BD2551E5DCAF3FC36AE4DD4B59460A /* LYTDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75EA4ADFF733CB818833158D07F0681E /* LYTSafeFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9502A2B45BE9FD7074B78938AFC541B6 /* LYTSafeFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76F211CABF3B9F21D721CAC6E88ED55B /* LYTBaseManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C88861AB5CF90CEF96835EE232FB2EE8 /* LYTBaseManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EDBED17549090EC15F1D1C7F0DD82C6 /* LYTSDKChatManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 738D692008627406BC7549ECE3BDCE79 /* LYTSDKChatManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F822F184447AB6F3E85D9DF437F31AD /* NSObject+SGCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = B67628AA9AC7E2DB2637A2362C8DA003 /* NSObject+SGCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FFED034751CE992AC70DCA88684E59A /* LYTCategore.h in Headers */ = {isa = PBXBuildFile; fileRef = 392615C75240A89D6855C297049DFE0A /* LYTCategore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		820E9576BDDC661E8988580737788ABC /* LYTDB.h in Headers */ = {isa = PBXBuildFile; fileRef = A30C5B8D73A2F6279A0167374E554772 /* LYTDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89CCE96F2900D6EF7119BBC82C198472 /* NSObject+SGKeyValues.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE5C6032AB5CAE468A301E3CD322109 /* NSObject+SGKeyValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C0AAC0A74DC441C401EA328F3ECC71E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABB6CDB27329629A0DB1323EF887A91 /* Foundation.framework */; };
-		8E60EE5657CC61FB1FF21374B52CEA65 /* LYTSafetyArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E83BA2678792B196BB74693F914805B /* LYTSafetyArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94701A1334CCA89EAD693937F29B1329 /* SDKNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 17D4EAADA5DC3B0926ABA76BAB3C5D56 /* SDKNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		995045D36C5AFFB1B3828836F3C7A144 /* LYTFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 931222271C32417CA393A3958C8E1255 /* LYTFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E13D2951DCC405D6E14AE3F4E110B3E /* NSString+LYTRemoveSprit.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A613A3C061A9E9FEFF291FDEE39268 /* NSString+LYTRemoveSprit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2DE1A8574E520023DEC4FB09B07EF57 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8BB90D33992502EF6253282EDA472 /* CoreTelephony.framework */; };
-		A53398C98F300D245EAFE3A4E57A4CC2 /* Pods-ObjcDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716206C302732BEA9CE9832CE37BC0A /* Pods-ObjcDemo-dummy.m */; };
-		A99B0A7CB31C3B2E889EFE8A6A94431A /* LYTSDKSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 5722DDEA9CE01EEBB008CDB2A52B6F81 /* LYTSDKSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B72AAE92E299DFA7C65273D72E873C05 /* SGDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B451BFA25B705A6CAC46803684AAAA /* SGDownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C05FFAD1F525E956DE23D2F3AE81A01D /* LYTError.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD7AA10DB1ACF0BA81F22CF0E0F6693 /* LYTError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB9211603254CA0467A6CD32C5AF9241 /* LYTAESTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 91653818F2FB0EF1D1FCC2ABBF59AE94 /* LYTAESTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBE365EF71A12B4B72206D8365FC6DAA /* LYTUserBaseInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6827AE94CE513191109E47B605C31F5D /* LYTUserBaseInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5BE8A9DE9A36A49D1795B920DEFD586 /* LYTPush.h in Headers */ = {isa = PBXBuildFile; fileRef = B73772AABA913E73D97F71A7501B0A24 /* LYTPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8310BA032D05C7E8B7B02AE0EF7835A /* LYTMessageBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4268DFEAC17F9058B6515032E7398A /* LYTMessageBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEC03272174FDCAAAB2A39C6636F6524 /* LYTSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 100E3264423CE608EFAB03A5146026BB /* LYTSDK-dummy.m */; };
-		E291F90E1E40273C5CECAB6BB381323D /* LYTSafetySet.h in Headers */ = {isa = PBXBuildFile; fileRef = F97B19A83A1FDE55BDD05C989AAD0C1E /* LYTSafetySet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E29EC908E2811772935E689778271347 /* libLYTFoundation.a in Sources */ = {isa = PBXBuildFile; fileRef = 6F72DB9670E2C068B81A673981030D45 /* libLYTFoundation.a */; };
-		E5AA69B8DA434DE5EF295E5E3027E5AA /* LYTMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 42283A5713261FECB6ACC4149243BD22 /* LYTMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E619962246369569DEFBAFD17DB8C809 /* NSString+StructValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D7688047FB2D1685D6A8A189AB9445C /* NSString+StructValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9E569A9AA1BE041470B9E901EF2E48E /* SDKURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 23EFB087FD757335A9A987568169A576 /* SDKURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1227BA90443139F98DDA90C64E3141C /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73F5D7BF1E5DBF9B88E3F5995E42CFC /* UserNotifications.framework */; };
-		F9241A11EBE5E6DE31B850673BE9088C /* NSMutableDictionary+LYTSetObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = BE2C0413C4148F36D12C838B5C3CAF55 /* NSMutableDictionary+LYTSetObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA4F5FEBECC216E2E777AE5E28FA3D45 /* LYTDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEAF39FD1FD0EB23B20EEA840CF88DA /* LYTDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF08BFBD81080E6780C8A192FE35AD95 /* NSString+LYTHash.h in Headers */ = {isa = PBXBuildFile; fileRef = A57C6FA1C88F68848BB053EA225AC62E /* NSString+LYTHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF59C298C1E5CAE065C3C3D55E2FADF9 /* LYTCommonLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 9860C1CFD3A42C7B4042B33DF41A8438 /* LYTCommonLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03182315BA20BDB07B931A9162EB5D22 /* HPWVistor.h in Headers */ = {isa = PBXBuildFile; fileRef = EC329900EC4CED04E2B3982336D45311 /* HPWVistor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05D284F4C42834074A218D3D9F8ADB51 /* LYTResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F0D2DD212244ACEC91A4627D240051 /* LYTResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BC7DE25E85E94E9B732856B5C7FB9B4 /* SDKURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA5376FE7BBC1D89B5E46652C49E79B /* SDKURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D74DC36C011897447361FB0103E80B1 /* libLYTFoundation.a in Sources */ = {isa = PBXBuildFile; fileRef = 2B04F711822B244BE0C19DD970C476CC /* libLYTFoundation.a */; };
+		0F09CAFF35F4D98590E28D6FC530FF37 /* SDKSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A52C2240D7EDDEE57812B18C603206 /* SDKSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1110B09424B735535D7BCED80DAE8549 /* SDKURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 89AF1B6EE8E37E344A797674DF3353A4 /* SDKURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12CAFC30CCBE6203982DE0CAA4937290 /* SDKNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C5BB982748C6E978DFFE21B586525F /* SDKNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1330CCB78683486D787A4E3AB8C17185 /* NSMutableArray+LYTAddObject.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E7776D5BC1C90CAE3CE9E24C78DBE0 /* NSMutableArray+LYTAddObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1570F1797B399BAAF06CEAE6E5CF70D1 /* NSObject+SGCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = A36C6E1115312D9FCF184AA2BF0FB4FC /* NSObject+SGCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C35A35D10937A388169DAE41FA77A31 /* LYTSDKConversationManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 448AC8D65FB7BE57AF6AC85C179FF48B /* LYTSDKConversationManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C92C13B3C68922F988250E05DDF0BAA /* HPWVisitorSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3331BB18D036AC7025CC4F12BC67749A /* HPWVisitorSDK-dummy.m */; };
+		1D8B40E44C735EF3A3AC6A08CE17663A /* HPWVistorSDKConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C26D1B86BBFE887971DB4AEE735FE60 /* HPWVistorSDKConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F690045E1A98D5689D1727621C4E28E /* Pods-ObjcDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716206C302732BEA9CE9832CE37BC0A /* Pods-ObjcDemo-dummy.m */; };
+		1F97BBBC2089064CCF7F0772799EB469 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8BB90D33992502EF6253282EDA472 /* CoreTelephony.framework */; };
+		1FD813A65F4448C60366A3B85C1403AE /* LYTSafeFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 267B59D08A3D905800373A9397ABA83F /* LYTSafeFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24968A925DBFA8AAED375901BEB99A1C /* LYTSDKChatRoomProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4866CFE0EDE6F28A8A2C9EF25FA57176 /* LYTSDKChatRoomProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2725767CF407466ADA8EE588C2C0E85C /* LYTBaseManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C684746D95755BEB5F567F4A275340 /* LYTBaseManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C22215293A5844DF9FE9A18E31ED814 /* NSObject+SGExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 03E62E3A5434012FB8FD5B0F7ED67473 /* NSObject+SGExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E5F5EE1E435D829BDA87914BBDEFC2C /* LYTUserBaseInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CF56BC9EA7921E8873958F49D11C938 /* LYTUserBaseInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E79E24F45E7E8CB32BA3B7AF3F386B5 /* NSMutableDictionary+LYTSetObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = A3666D1CCB08671A329E72E5235E70C8 /* NSMutableDictionary+LYTSetObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ED04E0ED9201F8A9B1C837A4A08A95E /* SDKNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFA05E0C831E13A7617EFC528012CD2 /* SDKNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		329F4FBE8AD762431113C86F4DFE2F50 /* LYTSafetyDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 96191E472396F93C14C1FE708D0A6838 /* LYTSafetyDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		387D7CD448B0CFB86AF730728A1B8030 /* LYTChatRoomInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D945B5E0C994C32303F39CC91C5D1E /* LYTChatRoomInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4027FFAFD3A1231C0598A39BEA56C24B /* LYTSDKChatManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A6CFA48F8B2FF504B6246E6061C1A959 /* LYTSDKChatManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A070098E5693DED140C80373EFE7344 /* LYTChatNoti.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD64A5B76480078CFF9F70644316A28 /* LYTChatNoti.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B79E0E81A4843A52B9822B69282EA0A /* LYTFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D2848C45E50EAFE7B997851BB8440F8C /* LYTFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BBD207B96F6AD6B0A84CFA14A3248A3 /* LYTSDKSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EA61808679A1BD157D353464306CF6 /* LYTSDKSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56416D905E85CAA43AD22B828B685B28 /* LYTSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BF7C9F3D3BFCCA0056EE869582B849 /* LYTSDK-dummy.m */; };
+		580926AFD568B18DC54EA55D64486749 /* NSObject+SGProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 270AE6D2210953D002D8EB8BE4A2FA6C /* NSObject+SGProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59E5D9A929E1E5ACA795F5BFF1295C67 /* LYTSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 330C77F28BB09DA75394CE5177D31B5F /* LYTSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C759139B2EB1E8EB6B130C43A0CC255 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73F5D7BF1E5DBF9B88E3F5995E42CFC /* UserNotifications.framework */; };
+		5D66BDE5F0537024168D71569DCEE58B /* LYTGlobalEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B61D29C0E563F0B48F3E3DF23CE4C1B /* LYTGlobalEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FFBBE7ABBD699E6984A171D7A3E0429 /* LYTDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 14AC3DB7A38DE882210AF3297EDD0229 /* LYTDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63537E6141ED73B603F7C6D56A849726 /* NSArray+ArrayFormSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B589AF357638B20F1183C4F106927EC /* NSArray+ArrayFormSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		680EAC25B2D4B1A7173A6ECE64FE9EC5 /* LYTCommonLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 555188EFAC99186756EE85AF100819AB /* LYTCommonLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A46D2DF54D1DCFA7036E4585AC7C633 /* SDKURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD53F3AE808DB23551067D1435016D7 /* SDKURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A78B306D424633BC29EF92638DD57DF /* LYTUploadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E22D3527415D49074D08290D7144CE7 /* LYTUploadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F6B0897D7F269866BD516838DE96EC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B6FBD327471A18F394923859505197 /* UIKit.framework */; };
+		6FC689AD53282983372CD5FD2B38EA15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABB6CDB27329629A0DB1323EF887A91 /* Foundation.framework */; };
+		6FE18BAE6143C560158D0F7F0F8F2748 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABB6CDB27329629A0DB1323EF887A91 /* Foundation.framework */; };
+		84190D4E59A81BD060E4185B37935CFA /* NSString+StructValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDB1F2D84343A7E196AA256B6144197 /* NSString+StructValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8498E55A16B6556D2E58E2FCBB8CFB70 /* NSString+LYTRemoveSprit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78640F2E8BD130691EF3F57979F00954 /* NSString+LYTRemoveSprit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		867FB15233ED3D83D0B7FCD8BA381468 /* LYTError.h in Headers */ = {isa = PBXBuildFile; fileRef = 13B6D76BFB42AA71805F1E56E18A63D4 /* LYTError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88F1CF5468BF9C5BD331EB988E5AD092 /* LYTDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B836260828D947D05A517DE3972AC6C /* LYTDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E6D36EF71C7595A2D45AB96D4CC5829 /* LYTDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E8B5928BF96214AA9BC88AE9D012CFC /* LYTDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96712BCEAB2E32863BAB164C5BA225B7 /* NSString+LYTRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = 003CE6DCE9E5D15614E0FD490E3A0C8C /* NSString+LYTRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		987E5C3FB183BD4FFE0A4D73062B749C /* NSObject+SGKeyValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC67745D3BC8083A75EEF9B7F952555 /* NSObject+SGKeyValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A20310FB5C5F5DDB8B46547F4557C6C /* NSData+AES128.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A726F4E87D67D1C308F6AFAA303EF64 /* NSData+AES128.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ADCF196C13D46A72838F0F9B93D770A /* LYTMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCFE8EF3996D93093A7CB9F30571A96 /* LYTMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D7E949D27F204ABF6023B0A9BAFD160 /* LYTSafetyArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B215AF1BA93D53BD24E82A0CDA7AAA /* LYTSafetyArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F969AD87E66FC11041BAC220B1A5002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABB6CDB27329629A0DB1323EF887A91 /* Foundation.framework */; };
+		A7C77BB54B227511F7C347F9F991BE2A /* libLYTCommonLib.a in Sources */ = {isa = PBXBuildFile; fileRef = B9D81DDC0EB70A59411398B8410C5CAC /* libLYTCommonLib.a */; };
+		A951D6D0BAAF03E95C7D089FD01E70BC /* SGCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DE0E60ED96E3ED3A24E57875C63A706F /* SGCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAD55875285869A27D7E81A0272050F7 /* NSObject+LYTSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = A15C362DA70ECC89E443B433800A6633 /* NSObject+LYTSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADD2981E1D0F215AF8E33DE325AEB627 /* SGDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 16E39F9173B66F16E0061E60D5A82967 /* SGDownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEEC1CC2F249860651CBB2D723D17F1E /* libHPWVistor.a in Sources */ = {isa = PBXBuildFile; fileRef = AF48C49C4B7F16357DAF0438E86F52DD /* libHPWVistor.a */; };
+		B062C1AFF8E9EB02159DFBD7ACA4F7BB /* NSString+LYTHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 50DE23F3F8C0F8BD81723ECB8D155B34 /* NSString+LYTHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B166666A015E5011155C9C731F681854 /* LYTPush.h in Headers */ = {isa = PBXBuildFile; fileRef = A06EF407A9CE770A73F71E1B83C016DD /* LYTPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7D29BF68A66E6C8640D958972A0067D /* LYTDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = DE57B4F27AA712203B64145024CF576D /* LYTDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFDA687CB1C403B0CDE3FB869732BBEE /* LYTUploadManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F2BABA73361D11B948CF0A1085E1700 /* LYTUploadManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C32FBC2AF13AE85621BF8EE43D2F4747 /* LYTMessageBody.h in Headers */ = {isa = PBXBuildFile; fileRef = F3B4FD9873186876B88035884819A50A /* LYTMessageBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6B1401449F8CC5F13DBAF1E961777B1 /* LYTSafetySet.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1FCDC898ECC56E50CF786524A401E3 /* LYTSafetySet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C935AB8B9880D0FC1B2BBF152C876471 /* LYTRSAUtillTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 347FA8F83BADEBD73A048BFA82833EFA /* LYTRSAUtillTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAA5EE6C49102B27656BC478C0F1FCB1 /* LYTAESTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2463C77C0AE3CF6092DB6969727F01 /* LYTAESTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DABCF5AD515BF5875C65263638FA1FFF /* SDKHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BEA046FDCE4223E068C067114EF3FD4B /* SDKHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD034BBB02BCA6C1C99332859940174 /* NSArray+InvertedOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DADB48AFF20C48C7ACBD734F0777C77 /* NSArray+InvertedOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE88185C8ADF52CFD0DF5845BEEF1E75 /* NSString+UDID.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A4C375F588E7327EFD4806F42756C0 /* NSString+UDID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA242396C6366642FA3F1886082691A3 /* LYTDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EF11D49CA84093FE6EC5D24DCB41FB11 /* LYTDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ABDDA7323D089805760875FDE8F2FAEE /* PBXContainerItemProxy */ = {
+		12FC8AA3008C2CFD396720877648C56F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 525FB2DF714EB5A205EACBC35EFA1CA2;
+			remoteGlobalIDString = 817094675B106D4C5D0198EA3069F775;
+			remoteInfo = HPWVisitorSDK;
+		};
+		71223E980CF058F5BA57EFDD3260DFCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19099404C3295540B6E525A598DC3989;
+			remoteInfo = LYTSDK;
+		};
+		D6D59B3B5D899701A0A355F120CDD434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19099404C3295540B6E525A598DC3989;
 			remoteInfo = LYTSDK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01B451BFA25B705A6CAC46803684AAAA /* SGDownloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGDownloadManager.h; path = Classes/LYTCommonLib/SGDownload/SGDownloadManager.h; sourceTree = "<group>"; };
+		003CE6DCE9E5D15614E0FD490E3A0C8C /* NSString+LYTRegex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LYTRegex.h"; path = "Classes/LYTFoundation/LYTCategore/NSString+LYTRegex.h"; sourceTree = "<group>"; };
+		00F0D2DD212244ACEC91A4627D240051 /* LYTResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTResultSet.h; path = Classes/LYTCommonLib/LYTDataBase/LYTResultSet.h; sourceTree = "<group>"; };
+		03E62E3A5434012FB8FD5B0F7ED67473 /* NSObject+SGExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SGExtention.h"; path = "Classes/LYTFoundation/SGKeyValues/NSObject+SGExtention.h"; sourceTree = "<group>"; };
+		04EA61808679A1BD157D353464306CF6 /* LYTSDKSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSDKSetting.h; path = Classes/LYTCore/LYTSDKSetting.h; sourceTree = "<group>"; };
 		0716206C302732BEA9CE9832CE37BC0A /* Pods-ObjcDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ObjcDemo-dummy.m"; sourceTree = "<group>"; };
-		08D2816863B89D30327FEFE1D4A4CB14 /* NSString+LYTRegex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LYTRegex.h"; path = "Classes/LYTFoundation/LYTCategore/NSString+LYTRegex.h"; sourceTree = "<group>"; };
-		100E3264423CE608EFAB03A5146026BB /* LYTSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYTSDK-dummy.m"; sourceTree = "<group>"; };
+		0A726F4E87D67D1C308F6AFAA303EF64 /* NSData+AES128.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+AES128.h"; path = "Classes/LYTFoundation/LYTEncrypt/NSData+AES128.h"; sourceTree = "<group>"; };
+		0C26D1B86BBFE887971DB4AEE735FE60 /* HPWVistorSDKConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HPWVistorSDKConfig.h; path = Classes/Headers/HPWVistorSDKConfig.h; sourceTree = "<group>"; };
+		102D81472EEAC8C50368B226B9A2B91D /* libCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCore.a; path = Classes/LYTCore/libCore.a; sourceTree = "<group>"; };
 		10FEBAC3E92F7A3FE177C56E1D2AC6B4 /* Pods-ObjcDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjcDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		15F99F2FFE370D5CE7EF0C27672D10E5 /* LYTResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTResultSet.h; path = Classes/LYTCommonLib/LYTDataBase/LYTResultSet.h; sourceTree = "<group>"; };
-		17D4EAADA5DC3B0926ABA76BAB3C5D56 /* SDKNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKNetworking.h; path = Classes/LYTCommonLib/LYTNetWorking/SDKNetworking.h; sourceTree = "<group>"; };
-		1F4268DFEAC17F9058B6515032E7398A /* LYTMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTMessageBody.h; path = Classes/LYTCore/LYTMessageBody.h; sourceTree = "<group>"; };
-		223B5274FE9F2C9AF7F0B799C40045E7 /* libPods-ObjcDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ObjcDemo.a"; path = "libPods-ObjcDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23EFB087FD757335A9A987568169A576 /* SDKURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKURLResponseSerialization.h; path = Classes/LYTCommonLib/LYTNetWorking/SDKURLResponseSerialization.h; sourceTree = "<group>"; };
-		287AE303E6D74571877A9C2D007AF992 /* SDKSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKSecurityPolicy.h; path = Classes/LYTCommonLib/LYTNetWorking/SDKSecurityPolicy.h; sourceTree = "<group>"; };
-		3400FB50D0B924C69C63B5079C4104F5 /* LYTSDKConversationManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSDKConversationManagerProtocol.h; path = Classes/LYTCore/LYTSDKConversationManagerProtocol.h; sourceTree = "<group>"; };
-		392615C75240A89D6855C297049DFE0A /* LYTCategore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTCategore.h; path = Classes/LYTFoundation/LYTCategore/LYTCategore.h; sourceTree = "<group>"; };
-		3F90050F2A16BD56CB5327528FCA7C71 /* LYTSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYTSDK.xcconfig; sourceTree = "<group>"; };
-		42283A5713261FECB6ACC4149243BD22 /* LYTMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTMessage.h; path = Classes/LYTCore/LYTMessage.h; sourceTree = "<group>"; };
-		47671C3F18A85B325BC0CC4CEFDFEC71 /* NSObject+LYTSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LYTSelector.h"; path = "Classes/LYTFoundation/LYTCategore/NSObject+LYTSelector.h"; sourceTree = "<group>"; };
+		13B6D76BFB42AA71805F1E56E18A63D4 /* LYTError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTError.h; path = Classes/LYTCore/LYTError.h; sourceTree = "<group>"; };
+		14AC3DB7A38DE882210AF3297EDD0229 /* LYTDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTDatabaseQueue.h; path = Classes/LYTCommonLib/LYTDataBase/LYTDatabaseQueue.h; sourceTree = "<group>"; };
+		16E39F9173B66F16E0061E60D5A82967 /* SGDownloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGDownloadManager.h; path = Classes/LYTCommonLib/SGDownload/SGDownloadManager.h; sourceTree = "<group>"; };
+		1B836260828D947D05A517DE3972AC6C /* LYTDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTDatabasePool.h; path = Classes/LYTCommonLib/LYTDataBase/LYTDatabasePool.h; sourceTree = "<group>"; };
+		1CCFE8EF3996D93093A7CB9F30571A96 /* LYTMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTMessage.h; path = Classes/LYTCore/LYTMessage.h; sourceTree = "<group>"; };
+		267B59D08A3D905800373A9397ABA83F /* LYTSafeFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSafeFoundation.h; path = Classes/LYTFoundation/LYTSafetyFoundation/LYTSafeFoundation.h; sourceTree = "<group>"; };
+		270AE6D2210953D002D8EB8BE4A2FA6C /* NSObject+SGProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SGProperty.h"; path = "Classes/LYTFoundation/SGKeyValues/NSObject+SGProperty.h"; sourceTree = "<group>"; };
+		2B04F711822B244BE0C19DD970C476CC /* libLYTFoundation.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLYTFoundation.a; path = Classes/LYTFoundation/libLYTFoundation.a; sourceTree = "<group>"; };
+		2F2BABA73361D11B948CF0A1085E1700 /* LYTUploadManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTUploadManagerProtocol.h; path = Classes/LYTCore/LYTUploadManagerProtocol.h; sourceTree = "<group>"; };
+		2FDB1F2D84343A7E196AA256B6144197 /* NSString+StructValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+StructValue.h"; path = "Classes/LYTFoundation/SGKeyValues/NSString+StructValue.h"; sourceTree = "<group>"; };
+		330C77F28BB09DA75394CE5177D31B5F /* LYTSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSDK.h; path = Classes/LYTCore/LYTSDK.h; sourceTree = "<group>"; };
+		3331BB18D036AC7025CC4F12BC67749A /* HPWVisitorSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HPWVisitorSDK-dummy.m"; sourceTree = "<group>"; };
+		347FA8F83BADEBD73A048BFA82833EFA /* LYTRSAUtillTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTRSAUtillTool.h; path = Classes/LYTFoundation/LYTEncrypt/LYTRSAUtillTool.h; sourceTree = "<group>"; };
+		35A52C2240D7EDDEE57812B18C603206 /* SDKSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKSecurityPolicy.h; path = Classes/LYTCommonLib/LYTNetWorking/SDKSecurityPolicy.h; sourceTree = "<group>"; };
+		3B61D29C0E563F0B48F3E3DF23CE4C1B /* LYTGlobalEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTGlobalEnum.h; path = Classes/LYTCore/LYTGlobalEnum.h; sourceTree = "<group>"; };
+		3C0A736C294D2C414FB6245061177ECA /* libHPWVisitorSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHPWVisitorSDK.a; path = libHPWVisitorSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B215AF1BA93D53BD24E82A0CDA7AAA /* LYTSafetyArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSafetyArray.h; path = Classes/LYTFoundation/LYTSafetyFoundation/LYTSafetyArray.h; sourceTree = "<group>"; };
+		448AC8D65FB7BE57AF6AC85C179FF48B /* LYTSDKConversationManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSDKConversationManagerProtocol.h; path = Classes/LYTCore/LYTSDKConversationManagerProtocol.h; sourceTree = "<group>"; };
+		4866CFE0EDE6F28A8A2C9EF25FA57176 /* LYTSDKChatRoomProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSDKChatRoomProtocol.h; path = Classes/LYTCore/LYTSDKChatRoomProtocol.h; sourceTree = "<group>"; };
 		4A52EE6F8ACC52176911ABECC2830DB2 /* Pods-ObjcDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjcDemo.release.xcconfig"; sourceTree = "<group>"; };
 		4ABB6CDB27329629A0DB1323EF887A91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4D9032CE2E959D7B2851FC2B91A92152 /* LYTSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSDK.h; path = Classes/LYTCore/LYTSDK.h; sourceTree = "<group>"; };
-		5722DDEA9CE01EEBB008CDB2A52B6F81 /* LYTSDKSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSDKSetting.h; path = Classes/LYTCore/LYTSDKSetting.h; sourceTree = "<group>"; };
-		5F898AE392B4BF90A39B64A74D868402 /* libLYTCommonLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLYTCommonLib.a; path = Classes/LYTCommonLib/libLYTCommonLib.a; sourceTree = "<group>"; };
-		6044FE18054AFE049149361534057264 /* NSObject+SGProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SGProperty.h"; path = "Classes/LYTFoundation/SGKeyValues/NSObject+SGProperty.h"; sourceTree = "<group>"; };
-		6827AE94CE513191109E47B605C31F5D /* LYTUserBaseInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTUserBaseInfo.h; path = Classes/LYTCore/LYTUserBaseInfo.h; sourceTree = "<group>"; };
-		6BA4624169E5314E421AF3B48A364025 /* libCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCore.a; path = Classes/LYTCore/libCore.a; sourceTree = "<group>"; };
-		6F72DB9670E2C068B81A673981030D45 /* libLYTFoundation.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLYTFoundation.a; path = Classes/LYTFoundation/libLYTFoundation.a; sourceTree = "<group>"; };
-		738D692008627406BC7549ECE3BDCE79 /* LYTSDKChatManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSDKChatManagerProtocol.h; path = Classes/LYTCore/LYTSDKChatManagerProtocol.h; sourceTree = "<group>"; };
-		742400CDA6C8EC7E25356D346CC3645D /* LYTChatRoomInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTChatRoomInfo.h; path = Classes/LYTCore/LYTChatRoomInfo.h; sourceTree = "<group>"; };
-		7731EE88DDC7E1CA59BE3AB5696406CD /* LYTRSAUtillTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTRSAUtillTool.h; path = Classes/LYTFoundation/LYTEncrypt/LYTRSAUtillTool.h; sourceTree = "<group>"; };
-		798862C9B1FF713DD92D21D9077EF466 /* SDKURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKURLSessionManager.h; path = Classes/LYTCommonLib/LYTNetWorking/SDKURLSessionManager.h; sourceTree = "<group>"; };
-		7CD1E79198B5A5B993416343BE588252 /* LYTUploadManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTUploadManagerProtocol.h; path = Classes/LYTCore/LYTUploadManagerProtocol.h; sourceTree = "<group>"; };
-		7E83BA2678792B196BB74693F914805B /* LYTSafetyArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSafetyArray.h; path = Classes/LYTFoundation/LYTSafetyFoundation/LYTSafetyArray.h; sourceTree = "<group>"; };
+		4CF56BC9EA7921E8873958F49D11C938 /* LYTUserBaseInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTUserBaseInfo.h; path = Classes/LYTCore/LYTUserBaseInfo.h; sourceTree = "<group>"; };
+		4E22D3527415D49074D08290D7144CE7 /* LYTUploadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTUploadManager.h; path = Classes/LYTCore/LYTUploadManager.h; sourceTree = "<group>"; };
+		4F2463C77C0AE3CF6092DB6969727F01 /* LYTAESTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTAESTool.h; path = Classes/LYTFoundation/LYTEncrypt/LYTAESTool.h; sourceTree = "<group>"; };
+		5036B2918E4E17A590DFB0E30318DA8E /* HPWVisitorSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HPWVisitorSDK.xcconfig; sourceTree = "<group>"; };
+		50A4C375F588E7327EFD4806F42756C0 /* NSString+UDID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+UDID.h"; path = "Classes/LYTFoundation/LYTCategore/NSString+UDID.h"; sourceTree = "<group>"; };
+		50DE23F3F8C0F8BD81723ECB8D155B34 /* NSString+LYTHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LYTHash.h"; path = "Classes/LYTFoundation/LYTCategore/NSString+LYTHash.h"; sourceTree = "<group>"; };
+		555188EFAC99186756EE85AF100819AB /* LYTCommonLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTCommonLib.h; path = Classes/LYTCommonLib/LYTCommonLib.h; sourceTree = "<group>"; };
+		5E8B5928BF96214AA9BC88AE9D012CFC /* LYTDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTDB.h; path = Classes/LYTCommonLib/LYTDataBase/LYTDB.h; sourceTree = "<group>"; };
+		6DADB48AFF20C48C7ACBD734F0777C77 /* NSArray+InvertedOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+InvertedOrder.h"; path = "Classes/LYTFoundation/LYTCategore/NSArray+InvertedOrder.h"; sourceTree = "<group>"; };
+		70AA91B92A539E3394BCABF6B62B9980 /* HPWRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = HPWRefresh.bundle; path = Classes/Resource/HPWRefresh.bundle; sourceTree = "<group>"; };
+		78640F2E8BD130691EF3F57979F00954 /* NSString+LYTRemoveSprit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LYTRemoveSprit.h"; path = "Classes/LYTFoundation/LYTCategore/NSString+LYTRemoveSprit.h"; sourceTree = "<group>"; };
+		7B589AF357638B20F1183C4F106927EC /* NSArray+ArrayFormSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+ArrayFormSet.h"; path = "Classes/LYTFoundation/LYTCategore/NSArray+ArrayFormSet.h"; sourceTree = "<group>"; };
+		7FD53F3AE808DB23551067D1435016D7 /* SDKURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKURLResponseSerialization.h; path = Classes/LYTCommonLib/LYTNetWorking/SDKURLResponseSerialization.h; sourceTree = "<group>"; };
+		81D945B5E0C994C32303F39CC91C5D1E /* LYTChatRoomInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTChatRoomInfo.h; path = Classes/LYTCore/LYTChatRoomInfo.h; sourceTree = "<group>"; };
+		88C5BB982748C6E978DFFE21B586525F /* SDKNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKNetworking.h; path = Classes/LYTCommonLib/LYTNetWorking/SDKNetworking.h; sourceTree = "<group>"; };
+		89AF1B6EE8E37E344A797674DF3353A4 /* SDKURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKURLRequestSerialization.h; path = Classes/LYTCommonLib/LYTNetWorking/SDKURLRequestSerialization.h; sourceTree = "<group>"; };
 		8D37D6BFBE6D3A7EC3DE54D49A0B42AC /* Pods-ObjcDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjcDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		90610A0F4CF4265DBE1FC79EFEDFA4E5 /* NSArray+InvertedOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+InvertedOrder.h"; path = "Classes/LYTFoundation/LYTCategore/NSArray+InvertedOrder.h"; sourceTree = "<group>"; };
-		91653818F2FB0EF1D1FCC2ABBF59AE94 /* LYTAESTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTAESTool.h; path = Classes/LYTFoundation/LYTEncrypt/LYTAESTool.h; sourceTree = "<group>"; };
-		931222271C32417CA393A3958C8E1255 /* LYTFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTFoundation.h; path = Classes/LYTFoundation/LYTFoundation.h; sourceTree = "<group>"; };
+		9231482090C206B2FFE3BFF6D7ABC174 /* LYTSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYTSDK-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9502A2B45BE9FD7074B78938AFC541B6 /* LYTSafeFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSafeFoundation.h; path = Classes/LYTFoundation/LYTSafetyFoundation/LYTSafeFoundation.h; sourceTree = "<group>"; };
-		9860C1CFD3A42C7B4042B33DF41A8438 /* LYTCommonLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTCommonLib.h; path = Classes/LYTCommonLib/LYTCommonLib.h; sourceTree = "<group>"; };
-		999CAA7B6ED826FDEDDB463F65B75270 /* LYTSDKChatRoomProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSDKChatRoomProtocol.h; path = Classes/LYTCore/LYTSDKChatRoomProtocol.h; sourceTree = "<group>"; };
-		9D7688047FB2D1685D6A8A189AB9445C /* NSString+StructValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+StructValue.h"; path = "Classes/LYTFoundation/SGKeyValues/NSString+StructValue.h"; sourceTree = "<group>"; };
-		9DBEB95D6D66CD0A5E10B927D09960C0 /* LYTGlobalEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTGlobalEnum.h; path = Classes/LYTCore/LYTGlobalEnum.h; sourceTree = "<group>"; };
-		A30C5B8D73A2F6279A0167374E554772 /* LYTDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTDB.h; path = Classes/LYTCommonLib/LYTDataBase/LYTDB.h; sourceTree = "<group>"; };
-		A57C6FA1C88F68848BB053EA225AC62E /* NSString+LYTHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LYTHash.h"; path = "Classes/LYTFoundation/LYTCategore/NSString+LYTHash.h"; sourceTree = "<group>"; };
-		B67628AA9AC7E2DB2637A2362C8DA003 /* NSObject+SGCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SGCoding.h"; path = "Classes/LYTFoundation/SGKeyValues/NSObject+SGCoding.h"; sourceTree = "<group>"; };
+		96191E472396F93C14C1FE708D0A6838 /* LYTSafetyDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSafetyDictionary.h; path = Classes/LYTFoundation/LYTSafetyFoundation/LYTSafetyDictionary.h; sourceTree = "<group>"; };
+		9CC67745D3BC8083A75EEF9B7F952555 /* NSObject+SGKeyValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SGKeyValues.h"; path = "Classes/LYTFoundation/SGKeyValues/NSObject+SGKeyValues.h"; sourceTree = "<group>"; };
+		A06EF407A9CE770A73F71E1B83C016DD /* LYTPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTPush.h; path = Classes/LYTCore/LYTPush.h; sourceTree = "<group>"; };
+		A15C362DA70ECC89E443B433800A6633 /* NSObject+LYTSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LYTSelector.h"; path = "Classes/LYTFoundation/LYTCategore/NSObject+LYTSelector.h"; sourceTree = "<group>"; };
+		A3666D1CCB08671A329E72E5235E70C8 /* NSMutableDictionary+LYTSetObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+LYTSetObjc.h"; path = "Classes/LYTFoundation/LYTCategore/NSMutableDictionary+LYTSetObjc.h"; sourceTree = "<group>"; };
+		A36C6E1115312D9FCF184AA2BF0FB4FC /* NSObject+SGCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SGCoding.h"; path = "Classes/LYTFoundation/SGKeyValues/NSObject+SGCoding.h"; sourceTree = "<group>"; };
+		A6BF7C9F3D3BFCCA0056EE869582B849 /* LYTSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYTSDK-dummy.m"; sourceTree = "<group>"; };
+		A6CFA48F8B2FF504B6246E6061C1A959 /* LYTSDKChatManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSDKChatManagerProtocol.h; path = Classes/LYTCore/LYTSDKChatManagerProtocol.h; sourceTree = "<group>"; };
+		AF48C49C4B7F16357DAF0438E86F52DD /* libHPWVistor.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libHPWVistor.a; path = Classes/libHPWVistor.a; sourceTree = "<group>"; };
 		B6B6FBD327471A18F394923859505197 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B73772AABA913E73D97F71A7501B0A24 /* LYTPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTPush.h; path = Classes/LYTCore/LYTPush.h; sourceTree = "<group>"; };
-		B8A0E30840B1F7F8BE830A5123F78DDC /* SDKURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKURLRequestSerialization.h; path = Classes/LYTCommonLib/LYTNetWorking/SDKURLRequestSerialization.h; sourceTree = "<group>"; };
-		BBD7AA10DB1ACF0BA81F22CF0E0F6693 /* LYTError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTError.h; path = Classes/LYTCore/LYTError.h; sourceTree = "<group>"; };
-		BDA7B8FEDC4581D1FF3B716A27CAFF74 /* NSString+UDID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+UDID.h"; path = "Classes/LYTFoundation/LYTCategore/NSString+UDID.h"; sourceTree = "<group>"; };
-		BE2C0413C4148F36D12C838B5C3CAF55 /* NSMutableDictionary+LYTSetObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+LYTSetObjc.h"; path = "Classes/LYTFoundation/LYTCategore/NSMutableDictionary+LYTSetObjc.h"; sourceTree = "<group>"; };
-		BFEAF39FD1FD0EB23B20EEA840CF88DA /* LYTDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTDatabaseQueue.h; path = Classes/LYTCommonLib/LYTDataBase/LYTDatabaseQueue.h; sourceTree = "<group>"; };
+		B7EA6C366B34A79B84598E47B5E8941B /* LYTSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYTSDK.xcconfig; sourceTree = "<group>"; };
+		B9D81DDC0EB70A59411398B8410C5CAC /* libLYTCommonLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLYTCommonLib.a; path = Classes/LYTCommonLib/libLYTCommonLib.a; sourceTree = "<group>"; };
+		BEA046FDCE4223E068C067114EF3FD4B /* SDKHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKHTTPSessionManager.h; path = Classes/LYTCommonLib/LYTNetWorking/SDKHTTPSessionManager.h; sourceTree = "<group>"; };
 		C73F5D7BF1E5DBF9B88E3F5995E42CFC /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
-		C88861AB5CF90CEF96835EE232FB2EE8 /* LYTBaseManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTBaseManagerProtocol.h; path = Classes/LYTCore/LYTBaseManagerProtocol.h; sourceTree = "<group>"; };
-		C97176D572AD9D4E5F4DF22472D3D85E /* LYTChatNoti.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTChatNoti.h; path = Classes/LYTCore/LYTChatNoti.h; sourceTree = "<group>"; };
-		CAEF6A9DDB1AC9241182356ECDF01845 /* NSMutableArray+LYTAddObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+LYTAddObject.h"; path = "Classes/LYTFoundation/LYTCategore/NSMutableArray+LYTAddObject.h"; sourceTree = "<group>"; };
+		CDFA05E0C831E13A7617EFC528012CD2 /* SDKNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKNetworkReachabilityManager.h; path = Classes/LYTCommonLib/LYTNetWorking/SDKNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		CFAE3339273FAAE6B99BEE9FE28DD0B7 /* Pods-ObjcDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjcDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		D239BFE64410E5E43590D8316D98B143 /* NSArray+ArrayFormSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+ArrayFormSet.h"; path = "Classes/LYTFoundation/LYTCategore/NSArray+ArrayFormSet.h"; sourceTree = "<group>"; };
-		D6D75F145EADE24D3C416104DA710CBB /* NSData+AES128.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+AES128.h"; path = "Classes/LYTFoundation/LYTEncrypt/NSData+AES128.h"; sourceTree = "<group>"; };
-		D90FD1477BE84BA0124C7502BC2A303F /* SGCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGCacheManager.h; path = Classes/LYTCommonLib/SGDownload/SGCacheManager.h; sourceTree = "<group>"; };
-		DB62787BBDBC0B53C3A4C111A4BD9728 /* LYTSafetyDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSafetyDictionary.h; path = Classes/LYTFoundation/LYTSafetyFoundation/LYTSafetyDictionary.h; sourceTree = "<group>"; };
-		DE757DCCE4ADF1D4ECF047EA2953696B /* NSObject+SGExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SGExtention.h"; path = "Classes/LYTFoundation/SGKeyValues/NSObject+SGExtention.h"; sourceTree = "<group>"; };
-		DFE5C6032AB5CAE468A301E3CD322109 /* NSObject+SGKeyValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SGKeyValues.h"; path = "Classes/LYTFoundation/SGKeyValues/NSObject+SGKeyValues.h"; sourceTree = "<group>"; };
+		D2848C45E50EAFE7B997851BB8440F8C /* LYTFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTFoundation.h; path = Classes/LYTFoundation/LYTFoundation.h; sourceTree = "<group>"; };
+		D5A6704B6BD3E91E357E93848A2CE610 /* HPWVisitorSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPWVisitorSDK-prefix.pch"; sourceTree = "<group>"; };
+		DCD64A5B76480078CFF9F70644316A28 /* LYTChatNoti.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTChatNoti.h; path = Classes/LYTCore/LYTChatNoti.h; sourceTree = "<group>"; };
+		DE0E60ED96E3ED3A24E57875C63A706F /* SGCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGCacheManager.h; path = Classes/LYTCommonLib/SGDownload/SGCacheManager.h; sourceTree = "<group>"; };
+		DE57B4F27AA712203B64145024CF576D /* LYTDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTDatabase.h; path = Classes/LYTCommonLib/LYTDataBase/LYTDatabase.h; sourceTree = "<group>"; };
+		DF1FCDC898ECC56E50CF786524A401E3 /* LYTSafetySet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSafetySet.h; path = Classes/LYTFoundation/LYTSafetyFoundation/LYTSafetySet.h; sourceTree = "<group>"; };
 		E0AA371E177D446DACD1688F42071AD5 /* Pods-ObjcDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjcDemo-frameworks.sh"; sourceTree = "<group>"; };
-		E146AD291F98B7C2102888A57D9EBC2A /* SDKHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKHTTPSessionManager.h; path = Classes/LYTCommonLib/LYTNetWorking/SDKHTTPSessionManager.h; sourceTree = "<group>"; };
-		E2A613A3C061A9E9FEFF291FDEE39268 /* NSString+LYTRemoveSprit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LYTRemoveSprit.h"; path = "Classes/LYTFoundation/LYTCategore/NSString+LYTRemoveSprit.h"; sourceTree = "<group>"; };
+		E353F7D9F416C73F1EC09BF80B76BD77 /* HappyWinBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = HappyWinBundle.bundle; path = Classes/Resource/HappyWinBundle.bundle; sourceTree = "<group>"; };
 		E44FD0C18692A77F613ECFE4DDB9CF26 /* Pods-ObjcDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjcDemo-resources.sh"; sourceTree = "<group>"; };
-		E54F0641A6FF1DF552C5AF14AF42FED4 /* ReadMe.md */ = {isa = PBXFileReference; includeInIndex = 1; name = ReadMe.md; path = Classes/LYTCore/ReadMe.md; sourceTree = "<group>"; };
-		E5BD2551E5DCAF3FC36AE4DD4B59460A /* LYTDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTDatabase.h; path = Classes/LYTCommonLib/LYTDataBase/LYTDatabase.h; sourceTree = "<group>"; };
+		E5CBF4EAE382813A34FD9EAC61784B54 /* LYTChatProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LYTChatProgressHUD.bundle; path = Classes/Resource/LYTChatProgressHUD.bundle; sourceTree = "<group>"; };
 		E5D8BB90D33992502EF6253282EDA472 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		E79A7B3B74E23B1BC020C804AD94F57B /* LYTSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYTSDK-prefix.pch"; sourceTree = "<group>"; };
-		F97B19A83A1FDE55BDD05C989AAD0C1E /* LYTSafetySet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTSafetySet.h; path = Classes/LYTFoundation/LYTSafetyFoundation/LYTSafetySet.h; sourceTree = "<group>"; };
-		FA52D80D851851C44A04EF6F7EDD6129 /* SDKNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKNetworkReachabilityManager.h; path = Classes/LYTCommonLib/LYTNetWorking/SDKNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		FD57DD229321B0D5E5AC325EA37F6723 /* libLYTSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLYTSDK.a; path = libLYTSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E7776D5BC1C90CAE3CE9E24C78DBE0 /* NSMutableArray+LYTAddObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+LYTAddObject.h"; path = "Classes/LYTFoundation/LYTCategore/NSMutableArray+LYTAddObject.h"; sourceTree = "<group>"; };
+		EC329900EC4CED04E2B3982336D45311 /* HPWVistor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HPWVistor.h; path = Classes/Headers/HPWVistor.h; sourceTree = "<group>"; };
+		EF11D49CA84093FE6EC5D24DCB41FB11 /* LYTDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTDatabaseAdditions.h; path = Classes/LYTCommonLib/LYTDataBase/LYTDatabaseAdditions.h; sourceTree = "<group>"; };
+		F0C684746D95755BEB5F567F4A275340 /* LYTBaseManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTBaseManagerProtocol.h; path = Classes/LYTCore/LYTBaseManagerProtocol.h; sourceTree = "<group>"; };
+		F3B4FD9873186876B88035884819A50A /* LYTMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYTMessageBody.h; path = Classes/LYTCore/LYTMessageBody.h; sourceTree = "<group>"; };
+		F406C5024B4AB4459F510854C34C61C0 /* libPods-ObjcDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ObjcDemo.a"; path = "libPods-ObjcDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CFF157651F7700B0A489F6AAC635F9 /* libLYTSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLYTSDK.a; path = libLYTSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA5376FE7BBC1D89B5E46652C49E79B /* SDKURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKURLSessionManager.h; path = Classes/LYTCommonLib/LYTNetWorking/SDKURLSessionManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F5704A44CC9408DE29317B5AF1E31A1C /* Frameworks */ = {
+		6889BAFF4ABA6082F137B154B0AD8258 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				083FA65C771A349F0BA8513969D9ECD1 /* Foundation.framework in Frameworks */,
+				1F97BBBC2089064CCF7F0772799EB469 /* CoreTelephony.framework in Frameworks */,
+				6FE18BAE6143C560158D0F7F0F8F2748 /* Foundation.framework in Frameworks */,
+				6F6B0897D7F269866BD516838DE96EC9 /* UIKit.framework in Frameworks */,
+				5C759139B2EB1E8EB6B130C43A0CC255 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBDD849A7534E9592750A9734F00D603 /* Frameworks */ = {
+		97B3F3304F53ABB1D3B797A0EC3F2790 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2DE1A8574E520023DEC4FB09B07EF57 /* CoreTelephony.framework in Frameworks */,
-				8C0AAC0A74DC441C401EA328F3ECC71E /* Foundation.framework in Frameworks */,
-				1AB2DA325AD5FCAB58D9D4216740BD21 /* UIKit.framework in Frameworks */,
-				F1227BA90443139F98DDA90C64E3141C /* UserNotifications.framework in Frameworks */,
+				9F969AD87E66FC11041BAC220B1A5002 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04A48F1A649F651B43D157295C8E5FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC689AD53282983372CD5FD2B38EA15 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0676297139E396E941447B752B95E5A1 /* Frameworks */ = {
+		0320D1C5E5DD66F8A92F73B6AF7CB359 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				B7EA6C366B34A79B84598E47B5E8941B /* LYTSDK.xcconfig */,
+				A6BF7C9F3D3BFCCA0056EE869582B849 /* LYTSDK-dummy.m */,
+				9231482090C206B2FFE3BFF6D7ABC174 /* LYTSDK-prefix.pch */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/LYTSDK";
 			sourceTree = "<group>";
 		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
@@ -210,75 +253,66 @@
 			path = "Target Support Files/Pods-ObjcDemo";
 			sourceTree = "<group>";
 		};
-		1FA451CEF5C3E95838E257D40186D271 /* LYTSDK */ = {
+		42C675DA94EC58C74A03221BD524D95A /* HPWVisitorSDK */ = {
 			isa = PBXGroup;
 			children = (
-				D072B452837DFB165EA26D67783FF35B /* Core */,
-				CB330CD5A1E50C1072829EB6E6F2C1E4 /* LYTCommonLib */,
-				2E3AE826D0F11E15724A00AA37D48930 /* LYTFoundation */,
-				4BF2EEBD6D08E7701B02EF57DE5FC867 /* Support Files */,
+				EC329900EC4CED04E2B3982336D45311 /* HPWVistor.h */,
+				0C26D1B86BBFE887971DB4AEE735FE60 /* HPWVistorSDKConfig.h */,
+				AF48C49C4B7F16357DAF0438E86F52DD /* libHPWVistor.a */,
+				D1FC06518C604930E617B829CF30E06D /* Frameworks */,
+				F0B0228F4E3D0824B3649A1099B12B88 /* Resources */,
+				BC5B6F89DCC8CB9D63B510359B108A86 /* Support Files */,
 			);
-			name = LYTSDK;
-			path = LYTSDK;
+			name = HPWVisitorSDK;
+			path = HPWVisitorSDK;
 			sourceTree = "<group>";
 		};
-		2D3F18958C32122C3396E688DB140F2E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FD57DD229321B0D5E5AC325EA37F6723 /* libLYTSDK.a */,
-				223B5274FE9F2C9AF7F0B799C40045E7 /* libPods-ObjcDemo.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2E3AE826D0F11E15724A00AA37D48930 /* LYTFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				6F72DB9670E2C068B81A673981030D45 /* libLYTFoundation.a */,
-				91653818F2FB0EF1D1FCC2ABBF59AE94 /* LYTAESTool.h */,
-				392615C75240A89D6855C297049DFE0A /* LYTCategore.h */,
-				931222271C32417CA393A3958C8E1255 /* LYTFoundation.h */,
-				7731EE88DDC7E1CA59BE3AB5696406CD /* LYTRSAUtillTool.h */,
-				9502A2B45BE9FD7074B78938AFC541B6 /* LYTSafeFoundation.h */,
-				7E83BA2678792B196BB74693F914805B /* LYTSafetyArray.h */,
-				DB62787BBDBC0B53C3A4C111A4BD9728 /* LYTSafetyDictionary.h */,
-				F97B19A83A1FDE55BDD05C989AAD0C1E /* LYTSafetySet.h */,
-				D239BFE64410E5E43590D8316D98B143 /* NSArray+ArrayFormSet.h */,
-				90610A0F4CF4265DBE1FC79EFEDFA4E5 /* NSArray+InvertedOrder.h */,
-				D6D75F145EADE24D3C416104DA710CBB /* NSData+AES128.h */,
-				CAEF6A9DDB1AC9241182356ECDF01845 /* NSMutableArray+LYTAddObject.h */,
-				BE2C0413C4148F36D12C838B5C3CAF55 /* NSMutableDictionary+LYTSetObjc.h */,
-				47671C3F18A85B325BC0CC4CEFDFEC71 /* NSObject+LYTSelector.h */,
-				B67628AA9AC7E2DB2637A2362C8DA003 /* NSObject+SGCoding.h */,
-				DE757DCCE4ADF1D4ECF047EA2953696B /* NSObject+SGExtention.h */,
-				DFE5C6032AB5CAE468A301E3CD322109 /* NSObject+SGKeyValues.h */,
-				6044FE18054AFE049149361534057264 /* NSObject+SGProperty.h */,
-				A57C6FA1C88F68848BB053EA225AC62E /* NSString+LYTHash.h */,
-				08D2816863B89D30327FEFE1D4A4CB14 /* NSString+LYTRegex.h */,
-				E2A613A3C061A9E9FEFF291FDEE39268 /* NSString+LYTRemoveSprit.h */,
-				9D7688047FB2D1685D6A8A189AB9445C /* NSString+StructValue.h */,
-				BDA7B8FEDC4581D1FF3B716A27CAFF74 /* NSString+UDID.h */,
-				4A9061EFBB383AC96A9B450D5FE8E031 /* Frameworks */,
-			);
-			name = LYTFoundation;
-			sourceTree = "<group>";
-		};
-		4A9061EFBB383AC96A9B450D5FE8E031 /* Frameworks */ = {
+		5280E918DDAA415FBD2D785321044FD3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4BF2EEBD6D08E7701B02EF57DE5FC867 /* Support Files */ = {
+		532BA7D566AB7BBDA8B5A5AF7FEBA0F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F90050F2A16BD56CB5327528FCA7C71 /* LYTSDK.xcconfig */,
-				100E3264423CE608EFAB03A5146026BB /* LYTSDK-dummy.m */,
-				E79A7B3B74E23B1BC020C804AD94F57B /* LYTSDK-prefix.pch */,
+				3C0A736C294D2C414FB6245061177ECA /* libHPWVisitorSDK.a */,
+				F6CFF157651F7700B0A489F6AAC635F9 /* libLYTSDK.a */,
+				F406C5024B4AB4459F510854C34C61C0 /* libPods-ObjcDemo.a */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/LYTSDK";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		741DAD673AB907ED03BCAA8A1D49BEDD /* LYTFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				2B04F711822B244BE0C19DD970C476CC /* libLYTFoundation.a */,
+				4F2463C77C0AE3CF6092DB6969727F01 /* LYTAESTool.h */,
+				D2848C45E50EAFE7B997851BB8440F8C /* LYTFoundation.h */,
+				347FA8F83BADEBD73A048BFA82833EFA /* LYTRSAUtillTool.h */,
+				267B59D08A3D905800373A9397ABA83F /* LYTSafeFoundation.h */,
+				43B215AF1BA93D53BD24E82A0CDA7AAA /* LYTSafetyArray.h */,
+				96191E472396F93C14C1FE708D0A6838 /* LYTSafetyDictionary.h */,
+				DF1FCDC898ECC56E50CF786524A401E3 /* LYTSafetySet.h */,
+				7B589AF357638B20F1183C4F106927EC /* NSArray+ArrayFormSet.h */,
+				6DADB48AFF20C48C7ACBD734F0777C77 /* NSArray+InvertedOrder.h */,
+				0A726F4E87D67D1C308F6AFAA303EF64 /* NSData+AES128.h */,
+				E6E7776D5BC1C90CAE3CE9E24C78DBE0 /* NSMutableArray+LYTAddObject.h */,
+				A3666D1CCB08671A329E72E5235E70C8 /* NSMutableDictionary+LYTSetObjc.h */,
+				A15C362DA70ECC89E443B433800A6633 /* NSObject+LYTSelector.h */,
+				A36C6E1115312D9FCF184AA2BF0FB4FC /* NSObject+SGCoding.h */,
+				03E62E3A5434012FB8FD5B0F7ED67473 /* NSObject+SGExtention.h */,
+				9CC67745D3BC8083A75EEF9B7F952555 /* NSObject+SGKeyValues.h */,
+				270AE6D2210953D002D8EB8BE4A2FA6C /* NSObject+SGProperty.h */,
+				50DE23F3F8C0F8BD81723ECB8D155B34 /* NSString+LYTHash.h */,
+				003CE6DCE9E5D15614E0FD490E3A0C8C /* NSString+LYTRegex.h */,
+				78640F2E8BD130691EF3F57979F00954 /* NSString+LYTRemoveSprit.h */,
+				2FDB1F2D84343A7E196AA256B6144197 /* NSString+StructValue.h */,
+				50A4C375F588E7327EFD4806F42756C0 /* NSString+UDID.h */,
+				B2460E0AB2A00FD228DE585C0886FAE6 /* Frameworks */,
+			);
+			name = LYTFoundation;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -286,16 +320,42 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				9666E94DB0777F2CA8CB64D501763AF4 /* Pods */,
-				2D3F18958C32122C3396E688DB140F2E /* Products */,
+				9D513DC5138E3E856E27D18EE4DF5912 /* Pods */,
+				532BA7D566AB7BBDA8B5A5AF7FEBA0F8 /* Products */,
 				B051F31FE34876F2612DD09DC81D7625 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9666E94DB0777F2CA8CB64D501763AF4 /* Pods */ = {
+		862BF26D7E4E2D7592142F4B0B1B2210 /* LYTCommonLib */ = {
 			isa = PBXGroup;
 			children = (
-				1FA451CEF5C3E95838E257D40186D271 /* LYTSDK */,
+				B9D81DDC0EB70A59411398B8410C5CAC /* libLYTCommonLib.a */,
+				555188EFAC99186756EE85AF100819AB /* LYTCommonLib.h */,
+				DE57B4F27AA712203B64145024CF576D /* LYTDatabase.h */,
+				EF11D49CA84093FE6EC5D24DCB41FB11 /* LYTDatabaseAdditions.h */,
+				1B836260828D947D05A517DE3972AC6C /* LYTDatabasePool.h */,
+				14AC3DB7A38DE882210AF3297EDD0229 /* LYTDatabaseQueue.h */,
+				5E8B5928BF96214AA9BC88AE9D012CFC /* LYTDB.h */,
+				00F0D2DD212244ACEC91A4627D240051 /* LYTResultSet.h */,
+				BEA046FDCE4223E068C067114EF3FD4B /* SDKHTTPSessionManager.h */,
+				88C5BB982748C6E978DFFE21B586525F /* SDKNetworking.h */,
+				CDFA05E0C831E13A7617EFC528012CD2 /* SDKNetworkReachabilityManager.h */,
+				35A52C2240D7EDDEE57812B18C603206 /* SDKSecurityPolicy.h */,
+				89AF1B6EE8E37E344A797674DF3353A4 /* SDKURLRequestSerialization.h */,
+				7FD53F3AE808DB23551067D1435016D7 /* SDKURLResponseSerialization.h */,
+				FAA5376FE7BBC1D89B5E46652C49E79B /* SDKURLSessionManager.h */,
+				DE0E60ED96E3ED3A24E57875C63A706F /* SGCacheManager.h */,
+				16E39F9173B66F16E0061E60D5A82967 /* SGDownloadManager.h */,
+				5280E918DDAA415FBD2D785321044FD3 /* Frameworks */,
+			);
+			name = LYTCommonLib;
+			sourceTree = "<group>";
+		};
+		9D513DC5138E3E856E27D18EE4DF5912 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42C675DA94EC58C74A03221BD524D95A /* HPWVisitorSDK */,
+				E5375F73733E212F364FCE4A1FE4BAAD /* LYTSDK */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -308,51 +368,61 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CB330CD5A1E50C1072829EB6E6F2C1E4 /* LYTCommonLib */ = {
+		B2460E0AB2A00FD228DE585C0886FAE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5F898AE392B4BF90A39B64A74D868402 /* libLYTCommonLib.a */,
-				9860C1CFD3A42C7B4042B33DF41A8438 /* LYTCommonLib.h */,
-				E5BD2551E5DCAF3FC36AE4DD4B59460A /* LYTDatabase.h */,
-				BFEAF39FD1FD0EB23B20EEA840CF88DA /* LYTDatabaseQueue.h */,
-				A30C5B8D73A2F6279A0167374E554772 /* LYTDB.h */,
-				15F99F2FFE370D5CE7EF0C27672D10E5 /* LYTResultSet.h */,
-				E146AD291F98B7C2102888A57D9EBC2A /* SDKHTTPSessionManager.h */,
-				17D4EAADA5DC3B0926ABA76BAB3C5D56 /* SDKNetworking.h */,
-				FA52D80D851851C44A04EF6F7EDD6129 /* SDKNetworkReachabilityManager.h */,
-				287AE303E6D74571877A9C2D007AF992 /* SDKSecurityPolicy.h */,
-				B8A0E30840B1F7F8BE830A5123F78DDC /* SDKURLRequestSerialization.h */,
-				23EFB087FD757335A9A987568169A576 /* SDKURLResponseSerialization.h */,
-				798862C9B1FF713DD92D21D9077EF466 /* SDKURLSessionManager.h */,
-				D90FD1477BE84BA0124C7502BC2A303F /* SGCacheManager.h */,
-				01B451BFA25B705A6CAC46803684AAAA /* SGDownloadManager.h */,
-				0676297139E396E941447B752B95E5A1 /* Frameworks */,
 			);
-			name = LYTCommonLib;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D072B452837DFB165EA26D67783FF35B /* Core */ = {
+		B6DDD9EC760A0DC2E1CA644FC6C8985D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C88861AB5CF90CEF96835EE232FB2EE8 /* LYTBaseManagerProtocol.h */,
-				C97176D572AD9D4E5F4DF22472D3D85E /* LYTChatNoti.h */,
-				742400CDA6C8EC7E25356D346CC3645D /* LYTChatRoomInfo.h */,
-				BBD7AA10DB1ACF0BA81F22CF0E0F6693 /* LYTError.h */,
-				9DBEB95D6D66CD0A5E10B927D09960C0 /* LYTGlobalEnum.h */,
-				42283A5713261FECB6ACC4149243BD22 /* LYTMessage.h */,
-				1F4268DFEAC17F9058B6515032E7398A /* LYTMessageBody.h */,
-				B73772AABA913E73D97F71A7501B0A24 /* LYTPush.h */,
-				4D9032CE2E959D7B2851FC2B91A92152 /* LYTSDK.h */,
-				738D692008627406BC7549ECE3BDCE79 /* LYTSDKChatManagerProtocol.h */,
-				999CAA7B6ED826FDEDDB463F65B75270 /* LYTSDKChatRoomProtocol.h */,
-				3400FB50D0B924C69C63B5079C4104F5 /* LYTSDKConversationManagerProtocol.h */,
-				5722DDEA9CE01EEBB008CDB2A52B6F81 /* LYTSDKSetting.h */,
-				7CD1E79198B5A5B993416343BE588252 /* LYTUploadManagerProtocol.h */,
-				6827AE94CE513191109E47B605C31F5D /* LYTUserBaseInfo.h */,
-				E54F0641A6FF1DF552C5AF14AF42FED4 /* ReadMe.md */,
-				FABEE1F94A1D5EE68D4333BDC6568D74 /* Frameworks */,
+				102D81472EEAC8C50368B226B9A2B91D /* libCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC5B6F89DCC8CB9D63B510359B108A86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5036B2918E4E17A590DFB0E30318DA8E /* HPWVisitorSDK.xcconfig */,
+				3331BB18D036AC7025CC4F12BC67749A /* HPWVisitorSDK-dummy.m */,
+				D5A6704B6BD3E91E357E93848A2CE610 /* HPWVisitorSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HPWVisitorSDK";
+			sourceTree = "<group>";
+		};
+		D0A54747CBD945B43E5C0475601600F0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F0C684746D95755BEB5F567F4A275340 /* LYTBaseManagerProtocol.h */,
+				DCD64A5B76480078CFF9F70644316A28 /* LYTChatNoti.h */,
+				81D945B5E0C994C32303F39CC91C5D1E /* LYTChatRoomInfo.h */,
+				13B6D76BFB42AA71805F1E56E18A63D4 /* LYTError.h */,
+				3B61D29C0E563F0B48F3E3DF23CE4C1B /* LYTGlobalEnum.h */,
+				1CCFE8EF3996D93093A7CB9F30571A96 /* LYTMessage.h */,
+				F3B4FD9873186876B88035884819A50A /* LYTMessageBody.h */,
+				A06EF407A9CE770A73F71E1B83C016DD /* LYTPush.h */,
+				330C77F28BB09DA75394CE5177D31B5F /* LYTSDK.h */,
+				A6CFA48F8B2FF504B6246E6061C1A959 /* LYTSDKChatManagerProtocol.h */,
+				4866CFE0EDE6F28A8A2C9EF25FA57176 /* LYTSDKChatRoomProtocol.h */,
+				448AC8D65FB7BE57AF6AC85C179FF48B /* LYTSDKConversationManagerProtocol.h */,
+				04EA61808679A1BD157D353464306CF6 /* LYTSDKSetting.h */,
+				4E22D3527415D49074D08290D7144CE7 /* LYTUploadManager.h */,
+				2F2BABA73361D11B948CF0A1085E1700 /* LYTUploadManagerProtocol.h */,
+				4CF56BC9EA7921E8873958F49D11C938 /* LYTUserBaseInfo.h */,
+				B6DDD9EC760A0DC2E1CA644FC6C8985D /* Frameworks */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		D1FC06518C604930E617B829CF30E06D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DF7F7F3A7216E513FE62FA77C27B4145 /* iOS */ = {
@@ -366,86 +436,111 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FABEE1F94A1D5EE68D4333BDC6568D74 /* Frameworks */ = {
+		E5375F73733E212F364FCE4A1FE4BAAD /* LYTSDK */ = {
 			isa = PBXGroup;
 			children = (
-				6BA4624169E5314E421AF3B48A364025 /* libCore.a */,
+				D0A54747CBD945B43E5C0475601600F0 /* Core */,
+				862BF26D7E4E2D7592142F4B0B1B2210 /* LYTCommonLib */,
+				741DAD673AB907ED03BCAA8A1D49BEDD /* LYTFoundation */,
+				0320D1C5E5DD66F8A92F73B6AF7CB359 /* Support Files */,
 			);
-			name = Frameworks;
+			name = LYTSDK;
+			path = LYTSDK;
+			sourceTree = "<group>";
+		};
+		F0B0228F4E3D0824B3649A1099B12B88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E353F7D9F416C73F1EC09BF80B76BD77 /* HappyWinBundle.bundle */,
+				70AA91B92A539E3394BCABF6B62B9980 /* HPWRefresh.bundle */,
+				E5CBF4EAE382813A34FD9EAC61784B54 /* LYTChatProgressHUD.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A0F6E2CD073FBB571F77B1AF22CC2598 /* Headers */ = {
+		2274D6516F9235ACA58530153E9989F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB9211603254CA0467A6CD32C5AF9241 /* LYTAESTool.h in Headers */,
-				76F211CABF3B9F21D721CAC6E88ED55B /* LYTBaseManagerProtocol.h in Headers */,
-				7FFED034751CE992AC70DCA88684E59A /* LYTCategore.h in Headers */,
-				31F0B4C1527CDC806B9C90F704253595 /* LYTChatNoti.h in Headers */,
-				12CD0AA3B62141762E3DA2EFE2234FA7 /* LYTChatRoomInfo.h in Headers */,
-				FF59C298C1E5CAE065C3C3D55E2FADF9 /* LYTCommonLib.h in Headers */,
-				6D33756ECB2D0735F9C9622F95A98283 /* LYTDatabase.h in Headers */,
-				FA4F5FEBECC216E2E777AE5E28FA3D45 /* LYTDatabaseQueue.h in Headers */,
-				820E9576BDDC661E8988580737788ABC /* LYTDB.h in Headers */,
-				C05FFAD1F525E956DE23D2F3AE81A01D /* LYTError.h in Headers */,
-				995045D36C5AFFB1B3828836F3C7A144 /* LYTFoundation.h in Headers */,
-				457DCEE381354D05B26252F03DCEF539 /* LYTGlobalEnum.h in Headers */,
-				E5AA69B8DA434DE5EF295E5E3027E5AA /* LYTMessage.h in Headers */,
-				D8310BA032D05C7E8B7B02AE0EF7835A /* LYTMessageBody.h in Headers */,
-				D5BE8A9DE9A36A49D1795B920DEFD586 /* LYTPush.h in Headers */,
-				59AE1A8F314C40993D3351207A636E75 /* LYTResultSet.h in Headers */,
-				41F2D595A917AF8257D9258CCD26901D /* LYTRSAUtillTool.h in Headers */,
-				75EA4ADFF733CB818833158D07F0681E /* LYTSafeFoundation.h in Headers */,
-				8E60EE5657CC61FB1FF21374B52CEA65 /* LYTSafetyArray.h in Headers */,
-				558E5FE99861890733ADE89E286D9710 /* LYTSafetyDictionary.h in Headers */,
-				E291F90E1E40273C5CECAB6BB381323D /* LYTSafetySet.h in Headers */,
-				4B1314918D83518BCB07B7F26C19ECA4 /* LYTSDK.h in Headers */,
-				7EDBED17549090EC15F1D1C7F0DD82C6 /* LYTSDKChatManagerProtocol.h in Headers */,
-				3AB141A3E0DA8AB1EE7DD6E18DFB3B85 /* LYTSDKChatRoomProtocol.h in Headers */,
-				471C4352A2AE197733737534FC54FD47 /* LYTSDKConversationManagerProtocol.h in Headers */,
-				A99B0A7CB31C3B2E889EFE8A6A94431A /* LYTSDKSetting.h in Headers */,
-				4622196ADA81638C61AC9A99F73C2996 /* LYTUploadManagerProtocol.h in Headers */,
-				CBE365EF71A12B4B72206D8365FC6DAA /* LYTUserBaseInfo.h in Headers */,
-				1A757FC9995649CA3AE77EC13680D05E /* NSArray+ArrayFormSet.h in Headers */,
-				14D616D15C93BC07DA5E9C267DE20F96 /* NSArray+InvertedOrder.h in Headers */,
-				0F17B4842FCEE79FFFA66C319FF13501 /* NSData+AES128.h in Headers */,
-				4117F1C8FFA86EA97A660B63C18464DB /* NSMutableArray+LYTAddObject.h in Headers */,
-				F9241A11EBE5E6DE31B850673BE9088C /* NSMutableDictionary+LYTSetObjc.h in Headers */,
-				3D7077C2F528D53F70C16F1646CA216C /* NSObject+LYTSelector.h in Headers */,
-				7F822F184447AB6F3E85D9DF437F31AD /* NSObject+SGCoding.h in Headers */,
-				3401BDE87D838E59A4AC17BFAD7F12FE /* NSObject+SGExtention.h in Headers */,
-				89CCE96F2900D6EF7119BBC82C198472 /* NSObject+SGKeyValues.h in Headers */,
-				484CF659BCDD9DCD2F6318F730D097A3 /* NSObject+SGProperty.h in Headers */,
-				FF08BFBD81080E6780C8A192FE35AD95 /* NSString+LYTHash.h in Headers */,
-				404057852F6D79EF573972FBA603EFF4 /* NSString+LYTRegex.h in Headers */,
-				9E13D2951DCC405D6E14AE3F4E110B3E /* NSString+LYTRemoveSprit.h in Headers */,
-				E619962246369569DEFBAFD17DB8C809 /* NSString+StructValue.h in Headers */,
-				1F4E92CA0C6A0E78ABC0C8D316F15A06 /* NSString+UDID.h in Headers */,
-				2F7FAA85DC00E1FA4BAA07577D96F742 /* SDKHTTPSessionManager.h in Headers */,
-				94701A1334CCA89EAD693937F29B1329 /* SDKNetworking.h in Headers */,
-				40EDFF046854DABC525D9C00C5C2D8A5 /* SDKNetworkReachabilityManager.h in Headers */,
-				47EC89FB2961F3C1300735537321853B /* SDKSecurityPolicy.h in Headers */,
-				05ABBF339D73E8A772EBECB28B13C2CA /* SDKURLRequestSerialization.h in Headers */,
-				E9E569A9AA1BE041470B9E901EF2E48E /* SDKURLResponseSerialization.h in Headers */,
-				371E054E4FF4596EEC795619B3ADFD59 /* SDKURLSessionManager.h in Headers */,
-				05792BDE1ADDC07FE87E72AE61F9F2FD /* SGCacheManager.h in Headers */,
-				B72AAE92E299DFA7C65273D72E873C05 /* SGDownloadManager.h in Headers */,
+				03182315BA20BDB07B931A9162EB5D22 /* HPWVistor.h in Headers */,
+				1D8B40E44C735EF3A3AC6A08CE17663A /* HPWVistorSDKConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E738675EEE0E3CF39CC3863CF26D819 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA5EE6C49102B27656BC478C0F1FCB1 /* LYTAESTool.h in Headers */,
+				2725767CF407466ADA8EE588C2C0E85C /* LYTBaseManagerProtocol.h in Headers */,
+				4A070098E5693DED140C80373EFE7344 /* LYTChatNoti.h in Headers */,
+				387D7CD448B0CFB86AF730728A1B8030 /* LYTChatRoomInfo.h in Headers */,
+				680EAC25B2D4B1A7173A6ECE64FE9EC5 /* LYTCommonLib.h in Headers */,
+				B7D29BF68A66E6C8640D958972A0067D /* LYTDatabase.h in Headers */,
+				FA242396C6366642FA3F1886082691A3 /* LYTDatabaseAdditions.h in Headers */,
+				88F1CF5468BF9C5BD331EB988E5AD092 /* LYTDatabasePool.h in Headers */,
+				5FFBBE7ABBD699E6984A171D7A3E0429 /* LYTDatabaseQueue.h in Headers */,
+				8E6D36EF71C7595A2D45AB96D4CC5829 /* LYTDB.h in Headers */,
+				867FB15233ED3D83D0B7FCD8BA381468 /* LYTError.h in Headers */,
+				4B79E0E81A4843A52B9822B69282EA0A /* LYTFoundation.h in Headers */,
+				5D66BDE5F0537024168D71569DCEE58B /* LYTGlobalEnum.h in Headers */,
+				9ADCF196C13D46A72838F0F9B93D770A /* LYTMessage.h in Headers */,
+				C32FBC2AF13AE85621BF8EE43D2F4747 /* LYTMessageBody.h in Headers */,
+				B166666A015E5011155C9C731F681854 /* LYTPush.h in Headers */,
+				05D284F4C42834074A218D3D9F8ADB51 /* LYTResultSet.h in Headers */,
+				C935AB8B9880D0FC1B2BBF152C876471 /* LYTRSAUtillTool.h in Headers */,
+				1FD813A65F4448C60366A3B85C1403AE /* LYTSafeFoundation.h in Headers */,
+				9D7E949D27F204ABF6023B0A9BAFD160 /* LYTSafetyArray.h in Headers */,
+				329F4FBE8AD762431113C86F4DFE2F50 /* LYTSafetyDictionary.h in Headers */,
+				C6B1401449F8CC5F13DBAF1E961777B1 /* LYTSafetySet.h in Headers */,
+				59E5D9A929E1E5ACA795F5BFF1295C67 /* LYTSDK.h in Headers */,
+				4027FFAFD3A1231C0598A39BEA56C24B /* LYTSDKChatManagerProtocol.h in Headers */,
+				24968A925DBFA8AAED375901BEB99A1C /* LYTSDKChatRoomProtocol.h in Headers */,
+				1C35A35D10937A388169DAE41FA77A31 /* LYTSDKConversationManagerProtocol.h in Headers */,
+				4BBD207B96F6AD6B0A84CFA14A3248A3 /* LYTSDKSetting.h in Headers */,
+				6A78B306D424633BC29EF92638DD57DF /* LYTUploadManager.h in Headers */,
+				BFDA687CB1C403B0CDE3FB869732BBEE /* LYTUploadManagerProtocol.h in Headers */,
+				2E5F5EE1E435D829BDA87914BBDEFC2C /* LYTUserBaseInfo.h in Headers */,
+				63537E6141ED73B603F7C6D56A849726 /* NSArray+ArrayFormSet.h in Headers */,
+				DBD034BBB02BCA6C1C99332859940174 /* NSArray+InvertedOrder.h in Headers */,
+				9A20310FB5C5F5DDB8B46547F4557C6C /* NSData+AES128.h in Headers */,
+				1330CCB78683486D787A4E3AB8C17185 /* NSMutableArray+LYTAddObject.h in Headers */,
+				2E79E24F45E7E8CB32BA3B7AF3F386B5 /* NSMutableDictionary+LYTSetObjc.h in Headers */,
+				AAD55875285869A27D7E81A0272050F7 /* NSObject+LYTSelector.h in Headers */,
+				1570F1797B399BAAF06CEAE6E5CF70D1 /* NSObject+SGCoding.h in Headers */,
+				2C22215293A5844DF9FE9A18E31ED814 /* NSObject+SGExtention.h in Headers */,
+				987E5C3FB183BD4FFE0A4D73062B749C /* NSObject+SGKeyValues.h in Headers */,
+				580926AFD568B18DC54EA55D64486749 /* NSObject+SGProperty.h in Headers */,
+				B062C1AFF8E9EB02159DFBD7ACA4F7BB /* NSString+LYTHash.h in Headers */,
+				96712BCEAB2E32863BAB164C5BA225B7 /* NSString+LYTRegex.h in Headers */,
+				8498E55A16B6556D2E58E2FCBB8CFB70 /* NSString+LYTRemoveSprit.h in Headers */,
+				84190D4E59A81BD060E4185B37935CFA /* NSString+StructValue.h in Headers */,
+				EE88185C8ADF52CFD0DF5845BEEF1E75 /* NSString+UDID.h in Headers */,
+				DABCF5AD515BF5875C65263638FA1FFF /* SDKHTTPSessionManager.h in Headers */,
+				12CAFC30CCBE6203982DE0CAA4937290 /* SDKNetworking.h in Headers */,
+				2ED04E0ED9201F8A9B1C837A4A08A95E /* SDKNetworkReachabilityManager.h in Headers */,
+				0F09CAFF35F4D98590E28D6FC530FF37 /* SDKSecurityPolicy.h in Headers */,
+				1110B09424B735535D7BCED80DAE8549 /* SDKURLRequestSerialization.h in Headers */,
+				6A46D2DF54D1DCFA7036E4585AC7C633 /* SDKURLResponseSerialization.h in Headers */,
+				0BC7DE25E85E94E9B732856B5C7FB9B4 /* SDKURLSessionManager.h in Headers */,
+				A951D6D0BAAF03E95C7D089FD01E70BC /* SGCacheManager.h in Headers */,
+				ADD2981E1D0F215AF8E33DE325AEB627 /* SGDownloadManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		525FB2DF714EB5A205EACBC35EFA1CA2 /* LYTSDK */ = {
+		19099404C3295540B6E525A598DC3989 /* LYTSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41750F7C3A265190CF7919624C095B6C /* Build configuration list for PBXNativeTarget "LYTSDK" */;
+			buildConfigurationList = 4A21D608256D53CBFC58D6770F42346F /* Build configuration list for PBXNativeTarget "LYTSDK" */;
 			buildPhases = (
-				D2FE052457519806ADEB94948D60B5D2 /* Sources */,
-				FBDD849A7534E9592750A9734F00D603 /* Frameworks */,
-				A0F6E2CD073FBB571F77B1AF22CC2598 /* Headers */,
+				5416DEA242C3CBA2A4F670AEF4589C66 /* Sources */,
+				6889BAFF4ABA6082F137B154B0AD8258 /* Frameworks */,
+				9E738675EEE0E3CF39CC3863CF26D819 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -453,24 +548,43 @@
 			);
 			name = LYTSDK;
 			productName = LYTSDK;
-			productReference = FD57DD229321B0D5E5AC325EA37F6723 /* libLYTSDK.a */;
+			productReference = F6CFF157651F7700B0A489F6AAC635F9 /* libLYTSDK.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		93E7BB3D47BEE5DB5A4D2DE5F56D6BA6 /* Pods-ObjcDemo */ = {
+		817094675B106D4C5D0198EA3069F775 /* HPWVisitorSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7788F92451D481E5B0C1841B9B8C7307 /* Build configuration list for PBXNativeTarget "Pods-ObjcDemo" */;
+			buildConfigurationList = 1B551B2604A303C2990BDCC5793D5B5E /* Build configuration list for PBXNativeTarget "HPWVisitorSDK" */;
 			buildPhases = (
-				933D8606F9F1907BCD779A4E193DA443 /* Sources */,
-				F5704A44CC9408DE29317B5AF1E31A1C /* Frameworks */,
+				FBB2F90D9942A9D79E42D77CA0E4D079 /* Sources */,
+				97B3F3304F53ABB1D3B797A0EC3F2790 /* Frameworks */,
+				2274D6516F9235ACA58530153E9989F5 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AB002B75C4879B29E39F23E2C4421DFC /* PBXTargetDependency */,
+				3CDFCB48CFD22856BD7FA8264D94B9D0 /* PBXTargetDependency */,
+			);
+			name = HPWVisitorSDK;
+			productName = HPWVisitorSDK;
+			productReference = 3C0A736C294D2C414FB6245061177ECA /* libHPWVisitorSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CE819FB1D056267C788EE1BDE3A8B004 /* Pods-ObjcDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2910467BB7056F4EC630FC7E543D239 /* Build configuration list for PBXNativeTarget "Pods-ObjcDemo" */;
+			buildPhases = (
+				FE2615555A09B554148CEFCB75E798DA /* Sources */,
+				A04A48F1A649F651B43D157295C8E5FE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB4055EB7BFF81C2385A72FB5CE42652 /* PBXTargetDependency */,
+				7C648101086ACB4DE78C4B2AB566B21E /* PBXTargetDependency */,
 			);
 			name = "Pods-ObjcDemo";
 			productName = "Pods-ObjcDemo";
-			productReference = 223B5274FE9F2C9AF7F0B799C40045E7 /* libPods-ObjcDemo.a */;
+			productReference = F406C5024B4AB4459F510854C34C61C0 /* libPods-ObjcDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -490,51 +604,72 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2D3F18958C32122C3396E688DB140F2E /* Products */;
+			productRefGroup = 532BA7D566AB7BBDA8B5A5AF7FEBA0F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				525FB2DF714EB5A205EACBC35EFA1CA2 /* LYTSDK */,
-				93E7BB3D47BEE5DB5A4D2DE5F56D6BA6 /* Pods-ObjcDemo */,
+				817094675B106D4C5D0198EA3069F775 /* HPWVisitorSDK */,
+				19099404C3295540B6E525A598DC3989 /* LYTSDK */,
+				CE819FB1D056267C788EE1BDE3A8B004 /* Pods-ObjcDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		933D8606F9F1907BCD779A4E193DA443 /* Sources */ = {
+		5416DEA242C3CBA2A4F670AEF4589C66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A53398C98F300D245EAFE3A4E57A4CC2 /* Pods-ObjcDemo-dummy.m in Sources */,
+				A7C77BB54B227511F7C347F9F991BE2A /* libLYTCommonLib.a in Sources */,
+				0D74DC36C011897447361FB0103E80B1 /* libLYTFoundation.a in Sources */,
+				56416D905E85CAA43AD22B828B685B28 /* LYTSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2FE052457519806ADEB94948D60B5D2 /* Sources */ = {
+		FBB2F90D9942A9D79E42D77CA0E4D079 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CAF3E2A21F1573673143DFCF1EC7DC0 /* libLYTCommonLib.a in Sources */,
-				E29EC908E2811772935E689778271347 /* libLYTFoundation.a in Sources */,
-				DEC03272174FDCAAAB2A39C6636F6524 /* LYTSDK-dummy.m in Sources */,
-				02BE26646D01FC82535C2DEB183F15BE /* ReadMe.md in Sources */,
+				1C92C13B3C68922F988250E05DDF0BAA /* HPWVisitorSDK-dummy.m in Sources */,
+				AEEC1CC2F249860651CBB2D723D17F1E /* libHPWVistor.a in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2615555A09B554148CEFCB75E798DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F690045E1A98D5689D1727621C4E28E /* Pods-ObjcDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AB002B75C4879B29E39F23E2C4421DFC /* PBXTargetDependency */ = {
+		3CDFCB48CFD22856BD7FA8264D94B9D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LYTSDK;
-			target = 525FB2DF714EB5A205EACBC35EFA1CA2 /* LYTSDK */;
-			targetProxy = ABDDA7323D089805760875FDE8F2FAEE /* PBXContainerItemProxy */;
+			target = 19099404C3295540B6E525A598DC3989 /* LYTSDK */;
+			targetProxy = D6D59B3B5D899701A0A355F120CDD434 /* PBXContainerItemProxy */;
+		};
+		7C648101086ACB4DE78C4B2AB566B21E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LYTSDK;
+			target = 19099404C3295540B6E525A598DC3989 /* LYTSDK */;
+			targetProxy = 71223E980CF058F5BA57EFDD3260DFCA /* PBXContainerItemProxy */;
+		};
+		FB4055EB7BFF81C2385A72FB5CE42652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HPWVisitorSDK;
+			target = 817094675B106D4C5D0198EA3069F775 /* HPWVisitorSDK */;
+			targetProxy = 12FC8AA3008C2CFD396720877648C56F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		067A5DE98A3DA568D53953108B5ABA73 /* Release */ = {
+		0A24684CE1BF9E572864755988B86D62 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F90050F2A16BD56CB5327528FCA7C71 /* LYTSDK.xcconfig */;
+			baseConfigurationReference = B7EA6C366B34A79B84598E47B5E8941B /* LYTSDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -554,7 +689,28 @@
 			};
 			name = Release;
 		};
-		3C3D7E8F84E5BB9E626715EEBB3CE0C3 /* Debug */ = {
+		1F280FF7C27878A959BD8D4DB8B91C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5036B2918E4E17A590DFB0E30318DA8E /* HPWVisitorSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HPWVisitorSDK/HPWVisitorSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44B7E5FE459B6EC60160C194FDD29230 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 10FEBAC3E92F7A3FE177C56E1D2AC6B4 /* Pods-ObjcDemo.debug.xcconfig */;
 			buildSettings = {
@@ -574,7 +730,7 @@
 			};
 			name = Debug;
 		};
-		568CD0913324B494483D7E438E3F7607 /* Release */ = {
+		5508E07073196C9A921AE3CF0B5C7F54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4A52EE6F8ACC52176911ABECC2830DB2 /* Pods-ObjcDemo.release.xcconfig */;
 			buildSettings = {
@@ -595,9 +751,9 @@
 			};
 			name = Release;
 		};
-		728D750D966AE8C02FC38B599DC51019 /* Debug */ = {
+		5DF0D9B3B95E4B4F9BC9B7A65ABDBCA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F90050F2A16BD56CB5327528FCA7C71 /* LYTSDK.xcconfig */;
+			baseConfigurationReference = B7EA6C366B34A79B84598E47B5E8941B /* LYTSDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -615,6 +771,28 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		A9ED6359E679AB5A629897F89A5E77B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5036B2918E4E17A590DFB0E30318DA8E /* HPWVisitorSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HPWVisitorSDK/HPWVisitorSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -734,6 +912,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B551B2604A303C2990BDCC5793D5B5E /* Build configuration list for PBXNativeTarget "HPWVisitorSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F280FF7C27878A959BD8D4DB8B91C35 /* Debug */,
+				A9ED6359E679AB5A629897F89A5E77B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -743,20 +930,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41750F7C3A265190CF7919624C095B6C /* Build configuration list for PBXNativeTarget "LYTSDK" */ = {
+		4A21D608256D53CBFC58D6770F42346F /* Build configuration list for PBXNativeTarget "LYTSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				728D750D966AE8C02FC38B599DC51019 /* Debug */,
-				067A5DE98A3DA568D53953108B5ABA73 /* Release */,
+				5DF0D9B3B95E4B4F9BC9B7A65ABDBCA7 /* Debug */,
+				0A24684CE1BF9E572864755988B86D62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7788F92451D481E5B0C1841B9B8C7307 /* Build configuration list for PBXNativeTarget "Pods-ObjcDemo" */ = {
+		E2910467BB7056F4EC630FC7E543D239 /* Build configuration list for PBXNativeTarget "Pods-ObjcDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C3D7E8F84E5BB9E626715EEBB3CE0C3 /* Debug */,
-				568CD0913324B494483D7E438E3F7607 /* Release */,
+				44B7E5FE459B6EC60160C194FDD29230 /* Debug */,
+				5508E07073196C9A921AE3CF0B5C7F54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

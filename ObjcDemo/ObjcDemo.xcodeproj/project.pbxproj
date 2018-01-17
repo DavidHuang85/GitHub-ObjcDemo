@@ -205,8 +205,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ObjcDemo/Pods-ObjcDemo-resources.sh",
-				"${PODS_ROOT}/HPWVistor/HPWSDK/Resources/HappyWinBundle.bundle",
-				"${PODS_ROOT}/HPWVistor/HPWSDK/Resources/LYTChatProgressHUD.bundle",
+				"${PODS_ROOT}/HPWVisitorSDK/Classes/Resource/HappyWinBundle.bundle",
+				"${PODS_ROOT}/HPWVisitorSDK/Classes/Resource/LYTChatProgressHUD.bundle",
+				"${PODS_ROOT}/HPWVisitorSDK/Classes/Resource/HPWRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
