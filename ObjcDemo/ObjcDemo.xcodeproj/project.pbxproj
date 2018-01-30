@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		668ED9149011DE0873602BC3 /* libPods-ObjcDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 986CDC5839FED6D8047E5797 /* libPods-ObjcDemo.a */; };
 		A5DA1E9F1FBD834D00C271DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DA1E9E1FBD834D00C271DA /* AppDelegate.m */; };
-		A5DA1EA21FBD834D00C271DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DA1EA11FBD834D00C271DA /* ViewController.m */; };
 		A5DA1EA51FBD834D00C271DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DA1EA31FBD834D00C271DA /* Main.storyboard */; };
 		A5DA1EA71FBD834D00C271DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DA1EA61FBD834D00C271DA /* Assets.xcassets */; };
 		A5DA1EAA1FBD834D00C271DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DA1EA81FBD834D00C271DA /* LaunchScreen.storyboard */; };
 		A5DA1EAD1FBD834D00C271DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DA1EAC1FBD834D00C271DA /* main.m */; };
+		A5E00B6D20204EB200C044AE /* DemoTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E00B6C20204EB200C044AE /* DemoTabBarViewController.m */; };
+		A5E00B7120204F2200C044AE /* DemoFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E00B6F20204F2200C044AE /* DemoFirstViewController.m */; };
+		A5E00B7220204F2200C044AE /* DemoFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E00B7020204F2200C044AE /* DemoFirstViewController.xib */; };
+		A5E00B7620204F3E00C044AE /* DemoSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E00B7420204F3E00C044AE /* DemoSecondViewController.m */; };
+		A5E00B7720204F3E00C044AE /* DemoSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E00B7520204F3E00C044AE /* DemoSecondViewController.xib */; };
+		A5E00B7B20204F6B00C044AE /* DemoThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E00B7920204F6B00C044AE /* DemoThirdViewController.m */; };
+		A5E00B7C20204F6B00C044AE /* DemoThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E00B7A20204F6B00C044AE /* DemoThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +28,22 @@
 		A5DA1E9A1FBD834D00C271DA /* ObjcDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DA1E9D1FBD834D00C271DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5DA1E9E1FBD834D00C271DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A5DA1EA01FBD834D00C271DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A5DA1EA11FBD834D00C271DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A5DA1EA41FBD834D00C271DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5DA1EA61FBD834D00C271DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5DA1EA91FBD834D00C271DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5DA1EAB1FBD834D00C271DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5DA1EAC1FBD834D00C271DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5E00B6B20204EB200C044AE /* DemoTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoTabBarViewController.h; sourceTree = "<group>"; };
+		A5E00B6C20204EB200C044AE /* DemoTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTabBarViewController.m; sourceTree = "<group>"; };
+		A5E00B6E20204F2200C044AE /* DemoFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoFirstViewController.h; sourceTree = "<group>"; };
+		A5E00B6F20204F2200C044AE /* DemoFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoFirstViewController.m; sourceTree = "<group>"; };
+		A5E00B7020204F2200C044AE /* DemoFirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoFirstViewController.xib; sourceTree = "<group>"; };
+		A5E00B7320204F3E00C044AE /* DemoSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoSecondViewController.h; sourceTree = "<group>"; };
+		A5E00B7420204F3E00C044AE /* DemoSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSecondViewController.m; sourceTree = "<group>"; };
+		A5E00B7520204F3E00C044AE /* DemoSecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoSecondViewController.xib; sourceTree = "<group>"; };
+		A5E00B7820204F6B00C044AE /* DemoThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoThirdViewController.h; sourceTree = "<group>"; };
+		A5E00B7920204F6B00C044AE /* DemoThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoThirdViewController.m; sourceTree = "<group>"; };
+		A5E00B7A20204F6B00C044AE /* DemoThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoThirdViewController.xib; sourceTree = "<group>"; };
 		F4CABF95069ABD100548FC4D /* Pods-ObjcDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjcDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjcDemo/Pods-ObjcDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,10 +97,9 @@
 		A5DA1E9C1FBD834D00C271DA /* ObjcDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A5E00B6A20204DD900C044AE /* Main */,
 				A5DA1E9D1FBD834D00C271DA /* AppDelegate.h */,
 				A5DA1E9E1FBD834D00C271DA /* AppDelegate.m */,
-				A5DA1EA01FBD834D00C271DA /* ViewController.h */,
-				A5DA1EA11FBD834D00C271DA /* ViewController.m */,
 				A5DA1EA31FBD834D00C271DA /* Main.storyboard */,
 				A5DA1EA61FBD834D00C271DA /* Assets.xcassets */,
 				A5DA1EA81FBD834D00C271DA /* LaunchScreen.storyboard */,
@@ -93,6 +107,24 @@
 				A5DA1EAC1FBD834D00C271DA /* main.m */,
 			);
 			path = ObjcDemo;
+			sourceTree = "<group>";
+		};
+		A5E00B6A20204DD900C044AE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A5E00B6B20204EB200C044AE /* DemoTabBarViewController.h */,
+				A5E00B6C20204EB200C044AE /* DemoTabBarViewController.m */,
+				A5E00B6E20204F2200C044AE /* DemoFirstViewController.h */,
+				A5E00B6F20204F2200C044AE /* DemoFirstViewController.m */,
+				A5E00B7020204F2200C044AE /* DemoFirstViewController.xib */,
+				A5E00B7320204F3E00C044AE /* DemoSecondViewController.h */,
+				A5E00B7420204F3E00C044AE /* DemoSecondViewController.m */,
+				A5E00B7520204F3E00C044AE /* DemoSecondViewController.xib */,
+				A5E00B7820204F6B00C044AE /* DemoThirdViewController.h */,
+				A5E00B7920204F6B00C044AE /* DemoThirdViewController.m */,
+				A5E00B7A20204F6B00C044AE /* DemoThirdViewController.xib */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +188,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E00B7220204F2200C044AE /* DemoFirstViewController.xib in Resources */,
+				A5E00B7720204F3E00C044AE /* DemoSecondViewController.xib in Resources */,
 				A5DA1EAA1FBD834D00C271DA /* LaunchScreen.storyboard in Resources */,
+				A5E00B7C20204F6B00C044AE /* DemoThirdViewController.xib in Resources */,
 				A5DA1EA71FBD834D00C271DA /* Assets.xcassets in Resources */,
 				A5DA1EA51FBD834D00C271DA /* Main.storyboard in Resources */,
 			);
@@ -225,8 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5DA1EA21FBD834D00C271DA /* ViewController.m in Sources */,
+				A5E00B6D20204EB200C044AE /* DemoTabBarViewController.m in Sources */,
 				A5DA1EAD1FBD834D00C271DA /* main.m in Sources */,
+				A5E00B7620204F3E00C044AE /* DemoSecondViewController.m in Sources */,
+				A5E00B7120204F2200C044AE /* DemoFirstViewController.m in Sources */,
+				A5E00B7B20204F6B00C044AE /* DemoThirdViewController.m in Sources */,
 				A5DA1E9F1FBD834D00C271DA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,9 +404,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QDH66RGJXX;
 				INFOPLIST_FILE = ObjcDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = davidhuang.ObjcDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjl.ObjcDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -385,9 +423,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QDH66RGJXX;
 				INFOPLIST_FILE = ObjcDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = davidhuang.ObjcDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjl.ObjcDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
