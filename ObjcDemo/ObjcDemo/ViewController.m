@@ -24,55 +24,19 @@ long count = 3;
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
+    NSArray *arr = @[@1,@10,@11,@15,@2,@0];
 
-//    self.arrData = [NSMutableArray array];
-//    [self.arrData addObject:@1];
-//    [self.arrData addObject:@2];
+//    [arr enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
 //
-//    self.arrDataLock = [[NSLock alloc] init];
-//
-//
-//
-//    if (@available(iOS 10.0, *)) {
-//        self.readTimer = [NSTimer scheduledTimerWithTimeInterval:1.f repeats:YES block:^(NSTimer * _Nonnull timer) {
-////            [self.arrDataLock lock];
-//            NSLog(@"hjl-reader self.arrData.count(%zd), self.arrData.lastObject(%@)",self.arrData.count,self.arrData.lastObject);
-////            [self.arrDataLock unlock];
-//        }];
-//    } else {
-//        // Fallback on earlier versions
-//    }
-//
-//
-//    if (@available(iOS 10.0, *)) {
-//        self.writeTimer = [NSTimer scheduledTimerWithTimeInterval:2.f repeats:YES block:^(NSTimer * _Nonnull timer) {
-//
-//            [self.arrDataLock lock];
-//            [self.arrData addObject:@(count)];
-//            count++;
-//            NSLog(@"hjl-write1 self.arrData.count(%zd)",self.arrData.count);
-//            [self.arrDataLock unlock];
-//
-//        }];
-//    } else {
-//        // Fallback on earlier versions
-//    }
-//
-//
-//
-//    if (@available(iOS 10.0, *)) {
-//        self.writeTimer2 = [NSTimer scheduledTimerWithTimeInterval:3.f repeats:YES block:^(NSTimer * _Nonnull timer) {
-//
-//            [self.arrDataLock lock];
-//            [self.arrData addObject:@(count)];
-//            count++;
-//            NSLog(@"hjl-write2 self.arrData.count(%zd)",self.arrData.count);
-//            [self.arrDataLock unlock];
-//
-//        }];
-//    } else {
-//        // Fallback on earlier versions
-//    }
+//    }];
+    NSArray *arr1 = [arr sortedArrayUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+
+        NSLog(@"\n obj1(%@) obj2(%@)",obj1,obj2);
+        return [obj1 intValue] < [obj2 intValue] ? NSOrderedAscending : NSOrderedDescending;
+
+    }];
+
+    NSLog(@"\n重新排序前的数据是(%@)\n重新排序后的数据是(%@)",arr,arr1);
 }
 
 
